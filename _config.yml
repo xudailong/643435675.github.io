@@ -7,7 +7,7 @@
 
 # Site settings
 title: 空被的柳
-brief-intro: 打算写点什么,代码或小说~
+brief-intro: 打算写点什么,代码或小说~~
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://wangwenying.github.io" # the base hostname & protocol for your site
 
@@ -19,8 +19,8 @@ facebook_username: #
 github_username:  wangwenying
 email: andrewnow@QQ.com
 weibo_username: wangwenying
-zhihu_username: 
-linkedIn_username: 
+zhihu_username:
+linkedIn_username:
 dribbble_username:
 
 description_footer: “不过人不是为失败而生的，”他说,“一个人可以被毁灭，但不能被打败。”

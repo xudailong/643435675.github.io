@@ -9,21 +9,21 @@
 title: 王文章的技术专栏
 brief-intro: Android and Python Coder
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://643435675.github.io" # the base hostname & protocol for your site
+url: "https://pdsuwwz.github.io" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
 # other links
 twitter_username: #gaohaoyang126
 facebook_username: #gaohaoyang.water
-github_username:  643435675
-email: 643435675@QQ.com
-weibo_username: 3115521wh
-zhihu_username: hll643435675
-linkedIn_username: gaohaoyang
+github_username:  pdsuwwz
+email: pdsu.wwz@foxmail.com
+weibo_username: 
+zhihu_username: 
+linkedIn_username: 
 dribbble_username:
 
-description_footer: 来自徐代龙的个人专栏！
+description_footer: 来自王文章的个人专栏！
 
 # comments
 # two ways to comment, only choose one, and use your own short name
@@ -35,7 +35,8 @@ disqus_shortname: #gaohaoyang
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
 # hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
 # xxxxx字符串
-baidu_tongji_id: 1cc1fc4b4b456bf7c99ce80aec5bf009
+baidu_tongji_id: f1920d119037ab4e9086fac076cda5c3
+# google_analytics_id: UA-72449510-4 # google 分析追踪id
 google_analytics_id: UA-72449510-4 # google 分析追踪id
 
 # Build settings

@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: 王文章的技术专栏
+title: XDB
 brief-intro: Android and Python Coder
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://pdsuwwz.github.io" # the base hostname & protocol for your site
@@ -23,7 +23,7 @@ zhihu_username:
 linkedIn_username: 
 dribbble_username:
 
-description_footer: 来自王文章的个人专栏！
+description_footer: From XDB
 
 # comments
 # two ways to comment, only choose one, and use your own short name

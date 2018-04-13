@@ -7,7 +7,7 @@
 
 # Site settings
 title: XDB
-brief-intro: Android and Python Coder
+brief-intro: Web Developer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://pdsuwwz.github.io" # the base hostname & protocol for your site
 

@@ -11,7 +11,7 @@ type: page
 
 ## 关于我
 
-<img src="https://avatars0.githubusercontent.com/u/19891724?s=150" style="border: 0;height: 150px;width: 150px;overflow: hidden;"/>
+<img src="https://raw.githubusercontent.com/pdsuwwz/wwzImages/master/images/my-header.jpg" style="border: 0;height: 150px;width: 150px;overflow: hidden;"/>
 
 即将毕业于平顶山学院。
 

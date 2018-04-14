@@ -11,18 +11,18 @@ type: page
 
 ## 关于我
 
-<iframe src="" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
+<!-- <iframe src="" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe> -->
 
-- 即将毕业于平顶山学院。
-- 
-- 2014 级软件工程 Java 工程师方向的学生。
-- 
-- 虽说学的是 Java，但无奈却想走前端，因为我更加热爱前端这条路。
-- 
-- 我想，前端就是将美好的东西展现给用户。
-- 
-- 所以即使它很漫长，我也要奋不顾身向前行。
-- 
+即将毕业于平顶山学院。
+
+2014 级软件工程 Java 工程师方向的学生。
+
+虽说学的是 Java，但无奈却想走前端，因为我更加热爱前端这条路。
+
+我想，前端就是将美好的东西展现给用户。
+
+所以即使它很漫长，我也要奋不顾身向前行。
+
 
 ## 联系我
 

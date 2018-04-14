@@ -11,7 +11,7 @@ type: page
 
 ## 关于我
 
-<!-- <iframe src="" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe> -->
+<img src="https://avatars0.githubusercontent.com/u/19891724?s=150" style="border: 0;height: 150px;width: 150px;overflow: hidden;"/>
 
 即将毕业于平顶山学院。
 

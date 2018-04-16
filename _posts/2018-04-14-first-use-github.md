@@ -36,15 +36,15 @@ author: 王文章
 
 Fork 成功后这个仓库的名字就变成了：pdsuwwz/xudailong.github.io ，如下图所示。
 
-> ![](https://i.imgur.com/c2pl6GL.jpg)
+> ![](https://i.imgur.com/DheH0Y1.jpg)
 
 点开 Settings 选项，更改 Repository name，这里要用到自己 github 一样的名字：[ 你的github名字 ].github.io，改完之后回车。
 
-> ![](https://i.imgur.com/fCHxJxq.jpg)
+> ![](https://i.imgur.com/ftXX6g2.jpg)
 
 将滚动条向下拉，直至看到 Github Pages
 
-> ![](https://i.imgur.com/YT8gbfP.jpg)
+> ![](https://i.imgur.com/cpGAhYS.jpg)
 
 出现这句话就说明 pdsuwwz.github.io 能够正常访问了，你的博客应该是 xxx.github.io
 

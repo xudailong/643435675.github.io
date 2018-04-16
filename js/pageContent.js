@@ -92,6 +92,24 @@ function isMaxHeight() {
 
         ancherPostion(anchorBtn, rightDiv); //目录锚的位置固定
         setContentMaxHeight(); //设置目录最大高度
+    }else{
+        /**
+         * 监听锚点按钮
+         */
+        anchorBtn.onclick = function(e) {
+            e.stopPropagation();
+            rightDiv.classList.add('right-show');
+            anchorBtn.classList.add('anchor-hide');
+        }
+
+        //监听body，点击body，隐藏Content
+        document.querySelector('body').addEventListener('click', function() {
+            rightDiv.classList.remove('right-show');
+            anchorBtn.classList.remove('anchor-hide');
+        })
+
+        ancherPostion(anchorBtn, rightDiv); //目录锚的位置固定
+        setContentMaxHeight(); //设置目录最大高度
     }
 }());
 

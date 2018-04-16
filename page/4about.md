@@ -1,6 +1,6 @@
 ---
 layout: page
-title: XDB__About
+title: About
 permalink: /about/
 icon: heart
 type: page
@@ -8,8 +8,6 @@ type: page
 
 * content
 {:toc}
-
-## 关于我
 
 <img src="https://raw.githubusercontent.com/pdsuwwz/wwzImages/master/images/my-header.jpg" style="border: 0;height: 150px;width: 150px;overflow: hidden;"/>
 

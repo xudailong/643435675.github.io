@@ -88,6 +88,9 @@
     }
     .anchor {
         display: none;
+        &:hover{
+          cursor: pointer;
+        }
     }
     .right {
         float: left;

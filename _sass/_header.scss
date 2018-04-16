@@ -25,6 +25,9 @@ header {
         }
         .menu{
             display: none;
+            &:hover{
+              cursor: pointer;
+            }
         }
         nav {
             float: right;

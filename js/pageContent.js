@@ -92,24 +92,6 @@ function isMaxHeight() {
 
         ancherPostion(anchorBtn, rightDiv); //目录锚的位置固定
         setContentMaxHeight(); //设置目录最大高度
-    }else{
-        /**
-         * 监听锚点按钮
-         */
-        anchorBtn.onclick = function(e) {
-            e.stopPropagation();
-            rightDiv.classList.add('right-show');
-            anchorBtn.classList.add('anchor-hide');
-        }
-
-        //监听body，点击body，隐藏Content
-        document.querySelector('body').addEventListener('click', function() {
-            rightDiv.classList.remove('right-show');
-            anchorBtn.classList.remove('anchor-hide');
-        })
-
-        ancherPostion(anchorBtn, rightDiv); //目录锚的位置固定
-        setContentMaxHeight(); //设置目录最大高度
     }
 }());
 
@@ -119,15 +101,15 @@ function isMaxHeight() {
 function ancherPostion(anchorBtn, rightDiv) {
     window.addEventListener('scroll', function() {
         // console.log('scroll');
-        var top = anchorBtn.getBoundingClientRect().top
+        var top = anchorBtn.getBoundingClientRect().top;
             // console.log(top);
-        var scrollTop = Math.max(document.documentElement.scrollTop, document.body.scrollTop)
+        var scrollTop = Math.max(document.documentElement.scrollTop, document.body.scrollTop);
         if (scrollTop > 50) {
-            anchorBtn.style.top = '20px'
-            rightDiv.style.top = '20px'
+            anchorBtn.style.top = '20px';
+            rightDiv.style.top = '20px';
         } else {
-            anchorBtn.style.top = '76px'
-            rightDiv.style.top = '76px'
+            anchorBtn.style.top = '76px';
+            rightDiv.style.top = '76px';
         }
     })
 }
@@ -136,25 +118,25 @@ function ancherPostion(anchorBtn, rightDiv) {
  * 设置目录最大高度
  */
 function setContentMaxHeight() {
-    var windowHeight = window.innerHeight
-    var contentUl = document.querySelector('.content-ul')
-    var contentMaxHeight = windowHeight - 180
-    contentUl.style.maxHeight = contentMaxHeight + 'px'
+    var windowHeight = window.innerHeight;
+    var contentUl = document.querySelector('.content-ul');
+    var contentMaxHeight = windowHeight - 180;
+    contentUl.style.maxHeight = contentMaxHeight + 'px';
 }
 
 //-------------post Content----------------------
 //将Content内容转移
 function moveTOC() {
     if (document.querySelector('#markdown-toc') !== null) {
-        var TOCString = document.querySelector('#markdown-toc').innerHTML
-        var contentUl = document.querySelector('#content-side')
-        contentUl.insertAdjacentHTML('afterbegin', TOCString) //插入字符串
+        var TOCString = document.querySelector('#markdown-toc').innerHTML;
+        var contentUl = document.querySelector('#content-side');
+        contentUl.insertAdjacentHTML('afterbegin', TOCString); //插入字符串
 
         // if (!isAndroidWechatBrowser()) {
 
             //添加scroll样式，为了平滑滚动
             //add class "scroll", for smooth scroll
-            var aTags = document.querySelectorAll('#content-side a')
+            var aTags = document.querySelectorAll('#content-side a');
 
             //add class for everyone
             // aTags.forEach(function () {
@@ -179,6 +161,6 @@ function moveTOC() {
  * @return {Boolean} [description]
  */
 function isAndroidWechatBrowser() {
-    var ua = navigator.userAgent.toLowerCase()
-    return /micromessenger/.test(ua) && /android/.test(ua2)
+    var ua = navigator.userAgent.toLowerCase();
+    return /micromessenger/.test(ua) && /android/.test(ua2);
 }

@@ -9,7 +9,7 @@ type: page
 * content
 {:toc}
 
-<img src="https://raw.githubusercontent.com/pdsuwwz/wwzImages/master/images/my-header.jpg" style="border: 0;height: 150px;width: 150px;overflow: hidden;"/>
+<img src="https://raw.githubusercontent.com/pdsuwwz/wwzImages/master/images/my-header.jpg" style="border: 0;height: 150px;width: 150px;overflow: hidden; background-color: #222"/>
 
 即将毕业于平顶山学院。
 
@@ -26,7 +26,7 @@ type: page
 
 * GitHub：[pdsuwwz](https://github.com/pdsuwwz)
 * email：pdsuwwz@foxmail.com
-* [网易云音乐-收藏一夏的阳光](http://music.163.com/#/user/home?id=105840719)
+* 网易云音乐：[收藏一夏的阳光](http://music.163.com/#/user/home?id=105840719)
 
 
 <!-- ## 友情链接

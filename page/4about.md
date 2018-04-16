@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: XDB__About
 permalink: /about/
 icon: heart
 type: page

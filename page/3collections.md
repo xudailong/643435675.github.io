@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 个人收藏
+title: XDB__个人收藏
 permalink: /collection/
 icon: bookmark
 type: page

@@ -44,7 +44,7 @@ layout: default
                 {% for thisTag in page.tags %}
                     {% if postHasSimilar == false and hasSimilar.size < 6 and post != page and tag == thisTag %}
                         {% if hasSimilar.size == 0 %}
-                        <h2 id="similar_posts">相似文章</h2>
+                        <h2 id="similar_posts">相关文章</h2>
                         <ul>
                         {% endif %}
                         <li class="relatedPost">
@@ -82,9 +82,9 @@ layout: default
                 </div>
                 <ul id="content-side" class="content-ul">
                     {% if hasSimilar.size > 0 %}
-                    <li><a href="#similar_posts">Similar Posts</a></li>
+                    <li><a href="#similar_posts">相关文章</a></li>
                     {% endif %}
-                    <li><a href="#comments">Comments</a></li>
+                    <!-- <li><a href="#comments">Comments</a></li> -->
                 </ul>
             </div>
             <!-- 其他div框放到这里 -->

@@ -32,7 +32,7 @@ author: 王文章
 
 ```js
 
-  git config --global user.name "你的github用户名";
+  git config --global user.name "你的github用户名"
 
 ```
 
@@ -40,7 +40,7 @@ author: 王文章
 
 ```js
 
-  git config --global user.email "你的github的默认邮箱";
+  git config --global user.email "你的github的默认邮箱"
 
 ```
 
@@ -59,19 +59,19 @@ git config --list
 
 在配置的时候可能会报出以下异常信息，
 
-```js
+```
 
-Can’t finish GitHub sharing process
+Can't finish GitHub sharing process
 
 ```
 
 这个时候用命令的方式配置用户信息就不太管用了，我们可以这样做。找到项目的文件夹，里面有个隐藏文件夹： `.git` ，打开之后找到 `config` 文件，用记事本打开，添加如下代码。
 
-```js
+```
 
 [user]
-    name = 你的github用户名
-    email = 你的github的默认邮箱
+    name = 你的 github 用户名
+    email = 你的 github 的默认邮箱
 
 ```
 

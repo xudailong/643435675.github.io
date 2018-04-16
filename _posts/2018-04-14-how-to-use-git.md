@@ -28,17 +28,17 @@ author: 王文章
 
 1. Git安装之后需要进行的一些基本信息配置
 
-    （1）设置用户名：
+  （1）设置用户名：
 
-```
+```js
 
   git config --global user.name "你的github用户名";
 
 ```
 
-    （2）设置用户邮箱：
+  （2）设置用户邮箱：
 
-```
+```js
 
   git config --global user.email "你的github的默认邮箱";
 
@@ -47,19 +47,19 @@ author: 王文章
 
 
 
-    （3）配置成功后，我们用如下命令来看看是否配置成功，若里面的user.name和user.email显示的是你刚才输入的信息，那么就代表配置成功。
+  （3）配置成功后，我们用如下命令来看看是否配置成功，若里面的user.name和user.email显示的是你刚才输入的信息，那么就代表配置成功。
 
-```
+```js
 
 git config --list
 
 ```
 
-        注意：git config --global 参数，有了这个参数表示你这台机器上所有的git仓库都会使用这个配置，当然你也可以对某个仓库指定不同的用户名和邮箱
+  注意：git config --global 参数，有了这个参数表示你这台机器上所有的git仓库都会使用这个配置，当然你也可以对某个仓库指定不同的用户名和邮箱
 
 在配置的时候可能会报出以下异常信息，
 
-```
+```js
 
 Can’t finish GitHub sharing process
 
@@ -67,7 +67,7 @@ Can’t finish GitHub sharing process
 
 这个时候用命令的方式配置用户信息就不太管用了，我们可以这样做。找到项目的文件夹，里面有个隐藏文件夹： `.git` ，打开之后找到 `config` 文件，用记事本打开，添加如下代码。
 
-```
+```js
 
 [user]
     name = 你的github用户名

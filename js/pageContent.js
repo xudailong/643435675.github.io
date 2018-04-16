@@ -71,27 +71,45 @@ function isMaxHeight() {
  * @return {[type]}           [description]
  */
 (function() {
+    var anchorBtn = document.querySelector('.anchor');
+    var rightDiv = document.querySelector('.right');
     if (window.innerWidth <= 770) {
-        var anchorBtn = document.querySelector('.anchor')
-        var rightDiv = document.querySelector('.right')
 
         /**
          * 监听锚点按钮
          */
         anchorBtn.onclick = function(e) {
-            e.stopPropagation()
-            rightDiv.classList.add('right-show')
-            anchorBtn.classList.add('anchor-hide')
+            e.stopPropagation();
+            rightDiv.classList.add('right-show');
+            anchorBtn.classList.add('anchor-hide');
         }
 
         //监听body，点击body，隐藏Content
         document.querySelector('body').addEventListener('click', function() {
-            rightDiv.classList.remove('right-show')
-            anchorBtn.classList.remove('anchor-hide')
+            rightDiv.classList.remove('right-show');
+            anchorBtn.classList.remove('anchor-hide');
         })
 
-        ancherPostion(anchorBtn, rightDiv) //目录锚的位置固定
-        setContentMaxHeight() //设置目录最大高度
+        ancherPostion(anchorBtn, rightDiv); //目录锚的位置固定
+        setContentMaxHeight(); //设置目录最大高度
+    }else{
+        /**
+         * 监听锚点按钮
+         */
+        anchorBtn.onclick = function(e) {
+            e.stopPropagation();
+            rightDiv.classList.add('right-show');
+            anchorBtn.classList.add('anchor-hide');
+        }
+
+        //监听body，点击body，隐藏Content
+        document.querySelector('body').addEventListener('click', function() {
+            rightDiv.classList.remove('right-show');
+            anchorBtn.classList.remove('anchor-hide');
+        })
+
+        ancherPostion(anchorBtn, rightDiv); //目录锚的位置固定
+        setContentMaxHeight(); //设置目录最大高度
     }
 }());
 

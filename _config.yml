@@ -9,8 +9,8 @@
 title: XDB
 brief-intro: Web Developer
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://pdsuwwz.github.io" # the base hostname & protocol for your site
-root: /
+url: "https://pdsuwwz.github.io" # the base hostname & protocol for your site
+
 
 permalink: /:year/:month/:day/:title/
 

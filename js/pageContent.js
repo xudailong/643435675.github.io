@@ -24,13 +24,13 @@
             var scrollBottom = htmlHeight - window.innerHeight - scrollTop
 
             if (scrollTop < 53) {
-                sidebarWrap.classList.remove('fixed')
+                // sidebarWrap.classList.remove('fixed')
                 sidebarWrap.classList.remove('scroll-bottom')
             } else if (scrollBottom >= (190 - 38)) {
                 sidebarWrap.classList.remove('scroll-bottom')
-                sidebarWrap.classList.add('fixed')
+                // sidebarWrap.classList.add('fixed')
             } else if (isMaxHeight()) { //content 达到maxHeight
-                sidebarWrap.classList.remove('fixed')
+                // sidebarWrap.classList.remove('fixed')
                 sidebarWrap.classList.add('scroll-bottom')
             }
         }
@@ -52,13 +52,13 @@
             var scrollBottom = htmlHeight - window.innerHeight - scrollTop
 
             if (scrollTop < 53) {
-                //sidebarWrap.classList.remove('fixed')
+                sidebarWrap.classList.remove('fixed')
                 sidebarWrap.classList.remove('scroll-bottom')
             } else if (scrollBottom >= (190 - 38)) {
                 sidebarWrap.classList.remove('scroll-bottom')
-                // sidebarWrap.classList.add('fixed')
+                sidebarWrap.classList.add('fixed')
             } else if (isMaxHeight()) { //content 达到maxHeight
-                // sidebarWrap.classList.remove('fixed')
+                sidebarWrap.classList.remove('fixed')
                 sidebarWrap.classList.add('scroll-bottom')
             }
         }

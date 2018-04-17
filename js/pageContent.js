@@ -35,6 +35,34 @@
             }
         }
         setContentMaxHeightInPC() //设置目录最大高度(PC端)
+    }else{
+        var sidebarWrap = document.querySelector('.right>.wrap')
+
+        //fix 之后百分比宽度会失效，这里用js赋予宽度
+        sidebarWrap.style.width = sidebarWrap.offsetWidth + "px"
+        window.onscroll = function() {
+
+            // 页面顶部滚进去的距离
+            var scrollTop = Math.max(document.documentElement.scrollTop, document.body.scrollTop)
+
+
+            // 页面底部滚进去的距离
+            var htmlHeight = Math.max(document.body.clientHeight, document.documentElement.clientHeight)
+                // console.log(htmlHeight);
+            var scrollBottom = htmlHeight - window.innerHeight - scrollTop
+
+            if (scrollTop < 53) {
+                //sidebarWrap.classList.remove('fixed')
+                sidebarWrap.classList.remove('scroll-bottom')
+            } else if (scrollBottom >= (190 - 38)) {
+                sidebarWrap.classList.remove('scroll-bottom')
+                // sidebarWrap.classList.add('fixed')
+            } else if (isMaxHeight()) { //content 达到maxHeight
+                // sidebarWrap.classList.remove('fixed')
+                sidebarWrap.classList.add('scroll-bottom')
+            }
+        }
+        setContentMaxHeightInPC() //设置目录最大高度(PC端)
     }
     moveTOC() //将Content内容转移
 }());

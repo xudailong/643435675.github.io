@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://pdsuwwz.github.io/</loc>
+  <lastmod>2018-04-17T14:59:55+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://pdsuwwz.github.io/archive/</loc>
+  <lastmod>2018-04-17T14:59:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pdsuwwz.github.io/category/</loc>
+  <lastmod>2018-04-17T14:59:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pdsuwwz.github.io/tag/</loc>
+  <lastmod>2018-04-17T14:59:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pdsuwwz.github.io/collection/</loc>
+  <lastmod>2018-04-17T14:59:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pdsuwwz.github.io/demo/</loc>
+  <lastmod>2018-04-17T14:59:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pdsuwwz.github.io/comments/</loc>
+  <lastmod>2018-04-17T14:59:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pdsuwwz.github.io/about/</loc>
+  <lastmod>2018-04-17T14:59:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pdsuwwz.github.io/2018/04/14/how-to-use-git/</loc>
+  <lastmod>2018-04-17T14:59:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pdsuwwz.github.io/2018/04/14/first-use-github/</loc>
+  <lastmod>2018-04-17T14:59:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>

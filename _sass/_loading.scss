@@ -2,7 +2,7 @@
 	-moz-user-select: none; /* Firefox */
 	-webkit-user-select: none; /* webkit */
 	-ms-user-select: none; /* IE10 */
-	-khtml-user-select: none; /* ÔçÆÚä¯ÀÀÆ÷ */
+	-khtml-user-select: none; /* æ—©æœŸæµè§ˆå™¨ */
 	user-select: none;
 }
 
@@ -124,7 +124,7 @@
     animation: slideinout 2.1s cubic-bezier(.77,0,.175,1) infinite
 }
 
-/* ½øÈëºóÉÁÏÖ¶¯»­ º¬ÑÓÊ± */
+/* è¿›å…¥åé—ªç°åŠ¨ç”» å«å»¶æ—¶ */
 @keyframes lightSpeedIn {
     0% {
         -webkit-transform: translate3d(10%,0,0) skewX(-5deg);
@@ -153,9 +153,9 @@
 .animated {
     -webkit-animation-duration: .4s;
     animation-duration: .4s;
-    /* ¸Ä³É backwards µÄÔ­Òò */
+    /* æ”¹æˆ backwards çš„åŸå›  */
     /*
-    	Ô­À´µÄ forwards »áÓ°ÏìÓ¦ÓÃµ±Ç°ÔªËØÇ°ÃæÔªËØµÄÎ»ÖÃ
+    	åŸæ¥çš„ forwards ä¼šå½±å“åº”ç”¨å½“å‰å…ƒç´ å‰é¢å…ƒç´ çš„ä½ç½®
     	http://www.w3school.com.cn/cssref/pr_animation-fill-mode.asp
     */
     -webkit-animation-fill-mode: backwards;
@@ -164,7 +164,7 @@
 }
 
 
-/* ½øÈëºóÉÁÏÖ¶¯»­ ²»º¬ÑÓÊ± */
+/* è¿›å…¥åé—ªç°åŠ¨ç”» ä¸å«å»¶æ—¶ */
 @keyframes lightSpeedInNo {
     0% {
         -webkit-transform: translate3d(10%,0,0) skewX(-5deg);

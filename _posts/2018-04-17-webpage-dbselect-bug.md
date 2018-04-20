@@ -16,7 +16,7 @@ author: 王文章
 
 ## 代码
 
-```css
+```CSS
  
 body {
     -moz-user-select: none; /*火狐*/
@@ -30,7 +30,7 @@ body {
 
 ## js
 
-```JavaScript
+```js
 
 document.onselectstart = new Function("return false");
 

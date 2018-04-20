@@ -33,6 +33,10 @@ body {
     position: relative;
     min-height: 100%;
     padding-bottom: 190px;
+
+    -webkit-font-smoothing: antialiased;
+    overflow: -moz-scrollbars-vertical;
+    overflow-y: scroll;
 }
 a {
     text-decoration: none;

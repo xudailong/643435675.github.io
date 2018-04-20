@@ -1,0 +1,198 @@
+.nos {
+	-moz-user-select: none; /* Firefox */
+	-webkit-user-select: none; /* webkit */
+	-ms-user-select: none; /* IE10 */
+	-khtml-user-select: none; /* 早期浏览器 */
+	user-select: none;
+}
+
+
+@keyframes fade{
+    0%{
+        opacity:1;
+    }
+    100%{
+        opacity:0;
+        background-color: #fff;
+    }
+}
+
+@keyframes ripple{
+    to {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes slideinout {
+    0% {
+        -webkit-transform: translate3d(-356px,0,0);
+        transform: translate3d(-356px,0,0)
+    }
+
+    50% {
+        -webkit-transform: translate3d(-118px,0,0);
+        transform: translate3d(-118px,0,0)
+    }
+
+    100% {
+        -webkit-transform: translate3d(118px,0,0);
+        transform: translate3d(118px,0,0)
+    }
+}
+
+@keyframes slideinout {
+    0% {
+        -webkit-transform: translate3d(-356px,0,0);
+        transform: translate3d(-356px,0,0)
+    }
+
+    50% {
+        -webkit-transform: translate3d(-118px,0,0);
+        transform: translate3d(-118px,0,0)
+    }
+
+    100% {
+        -webkit-transform: translate3d(118px,0,0);
+        transform: translate3d(118px,0,0);
+    }
+}
+.loader {
+    position: fixed;
+    margin: -71px 0 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    opacity: 1;
+    background-color: #fff;
+    transition: opacity 1s ease;
+    animation: ripple .5s;
+    animation-delay: 1.3s;
+    animation-fill-mode: forwards;
+}
+
+.load{
+    text-align: center;
+    animation:fade .5s ; -webkit-animation:fade .5s ;
+            -moz-animation:fade .5s ;-o-animation:fade .5s ;-ms-animation:fade .5s ; 
+    animation-fill-mode: forwards;
+    animation-delay: 1.0s;
+}
+
+.loader div {
+    font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    font-weight: 300;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 24px;
+    color: #000;
+    margin-top: 0;
+}
+
+.loader div .loader-label {
+    margin-bottom: 5px;
+    text-align: center;
+    line-height: 36px
+}
+
+.loader div .progress-bar {
+    width: 239px;
+    height: 4px;
+    border-radius: 4px;
+    background: #ffb2a2;
+    position: relative;
+    overflow: hidden;
+    margin-top: 21px;
+}
+
+.loader div .progress-bar .inner {
+    border-radius: 4px;
+    background: #dd3915;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 100;
+    width: 239px;
+    -webkit-transform: translate3d(-356px,0,0);
+    transform: translate3d(-356px,0,0);
+    -webkit-animation: slideinout 2.1s cubic-bezier(.77,0,.175,1) infinite;
+    animation: slideinout 2.1s cubic-bezier(.77,0,.175,1) infinite
+}
+
+/* 进入后闪现动画 含延时 */
+@keyframes lightSpeedIn {
+    0% {
+        -webkit-transform: translate3d(10%,0,0) skewX(-5deg);
+        -ms-transform: translate3d(10%,0,0) skewX(-5deg);
+        transform: translate3d(10%,0,0) skewX(-5deg);
+        opacity: 0
+    }
+
+
+    100% {
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none;
+        opacity: 1
+    }
+}
+
+.lightSpeedIn {
+    -webkit-animation-name: lightSpeedIn;
+    animation-name: lightSpeedIn;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out
+}
+
+
+.animated {
+    -webkit-animation-duration: .4s;
+    animation-duration: .4s;
+    /* 改成 backwards 的原因 */
+    /*
+    	原来的 forwards 会影响应用当前元素前面元素的位置
+    	http://www.w3school.com.cn/cssref/pr_animation-fill-mode.asp
+    */
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+    animation-delay: 1.3s;
+}
+
+
+/* 进入后闪现动画 不含延时 */
+@keyframes lightSpeedInNo {
+    0% {
+        -webkit-transform: translate3d(10%,0,0) skewX(-5deg);
+        -ms-transform: translate3d(10%,0,0) skewX(-5deg);
+        transform: translate3d(10%,0,0) skewX(-5deg);
+        opacity: 0
+    }
+
+
+    100% {
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none;
+        opacity: 1
+    }
+}
+
+.lightSpeedInNo {
+    -webkit-animation-name: lightSpeedIn;
+    animation-name: lightSpeedIn;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out
+}
+
+
+.animatedNo {
+    -webkit-animation-duration: .4s;
+    animation-duration: .4s;
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+}

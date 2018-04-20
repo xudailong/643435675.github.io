@@ -6,7 +6,7 @@ window.addEventListener("load", function() {
 	var wrapper = document.getElementById("wrapper");
 	// document.body.style.overflow="hidden";
 	setTimeout(function() {
-		document.body.removeChild(wrapper);
+		// document.body.removeChild(wrapper);
 	}, 1800);
 
 	// setTimeout(function(){

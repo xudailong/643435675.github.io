@@ -16,7 +16,7 @@ author: 王文章
 
 ## 代码
 
-```CSS
+```css
  
 body {
     -moz-user-select: none; /*火狐*/
@@ -27,8 +27,6 @@ body {
 }
 
 ```
-
-## js
 
 ```js
 

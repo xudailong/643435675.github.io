@@ -47,7 +47,7 @@
       code_link: 'https://codepen.io/XDB/pen/ZoGQdY',
       title: 'CSS3 翘边阴影',
       core_tech: 'CSS3的伪类和 transform 属性',
-      description: '用CSS3中的伪类和 transform 用 skew 将 div 旋转成菱形；层级低于自身作为阴影部分并调整位置实现之 代码详情见 <a href ="https://codepen.io/XDB/pen/ZoGQdY">这里</a>。'
+      description: '用CSS3中的伪类做阴影，用 transform 中的 skew 将阴影旋转成菱形；层级低于自身作为阴影部分并调整位置实现之 代码详情见 <a href ="https://codepen.io/XDB/pen/ZoGQdY">这里</a>。'
     }
   ];
 

@@ -19,10 +19,7 @@ author: 王文章
 > #### *V 1.4 alpha*
 
 ```js
-
-
 [
-
     // editor配置
     {
         "keys": ["ctrl+v"],
@@ -31,7 +28,6 @@ author: 王文章
         "keys": ["ctrl+shift+v"],
         "command": "paste"
     },
-
      {
         "keys": ["alt+/"],
         "command": "auto_complete"
@@ -95,6 +91,16 @@ author: 王文章
             "file": "Packages/Default/Add Line.sublime-macro"
         }
     },
+
+    // 定位到对于的匹配符(譬如{})(从前面定位后面时,光标要在匹配符里面,后面到前面,则反之)
+   /* {
+        "keys": ["ctrl+shift+p"],
+        "command": "move_to",
+        "args": {
+            "to": "brackets"
+        }
+    },*/
+
 
     // 这个命令默认使用的是ctrl+shift+p
     {

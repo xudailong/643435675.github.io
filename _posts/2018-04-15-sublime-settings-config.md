@@ -10,7 +10,7 @@ author: 王文章
 * content
 {:toc}
 
-## 任务
+## 目的
 
 自从习惯了使用 eclipse 之后就非常喜欢它自带的快捷键。在这里将介绍如何使得习惯了 eclipse 中的快捷键但又想使用 Sublime 的小伙伴也适配上 eclipse 中的快捷键（部分，但是够用了。）
 

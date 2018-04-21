@@ -5,9 +5,10 @@
 
 window.addEventListener("load", function() {
 	var wrapper = document.getElementById("wrapper");
-	wrapper.addEventListener('touchmove', move, false);
+	// wrapper.addEventListener('touchmove', move, false);
 	$(wrapper).on("touchmove",function(e){
 	    e.preventDefault();
+	    e.stopPropagation();
 	});
 	setTimeout(function() {
 		document.body.removeChild(wrapper);

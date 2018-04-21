@@ -175,8 +175,13 @@
 
 .define-scrollbar::-webkit-scrollbar {
     width: 6px;
-    height: 6px;
+    height: 6px
 }
+
 .define-scrollbar::-webkit-scrollbar-track-piece {
-    background: #eee;
+    background: #eee
+}
+
+.define-scrollbar::-webkit-scrollbar-thumb:vertical {
+    background: #666
 }

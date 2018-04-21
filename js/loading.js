@@ -8,6 +8,3 @@ window.addEventListener("load", function() {
 		document.body.removeChild(wrapper);
 	}, 1200);
 });
-document.addEventListener('touchmove',function(e){
-    e.preventDefault();
-});

@@ -20,6 +20,7 @@ type: page
         <ul>
         {% for tag in sortedtags %}
           <h2 id="{{ tag }}">{{ tag }}</h2>
+
           {% for post in site.tags[tag] %}
             <li>
                 <time>
@@ -31,6 +32,8 @@ type: page
                 {% include tag.html %}
             </li>
           {% endfor %}
+
+          
         {% endfor %}
         </ul>
 
@@ -42,7 +45,7 @@ type: page
             <!-- Content -->
             <div class="side content">
                 <div>
-                    Content
+                    内容
                 </div>
                 <ul id="content-side" class="content-ul">
                     {% for tag in sortedtags %}

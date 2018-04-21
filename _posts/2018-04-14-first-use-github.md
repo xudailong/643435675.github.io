@@ -3,7 +3,7 @@ layout: post
 title:  "记录第一次使用 github "
 date:   2018-04-14 14:45:43
 categories: github
-tags:  github git 博客 社区
+tags:  git github 博客 社区
 author: 王文章
 ---
 

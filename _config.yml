@@ -64,6 +64,7 @@ theme: jekyll-theme-cayman
 
 compress_html:
   clippings: all
-  comments: ["<!--", "-->"]
+  comments: ["<!-- ", " -->"]
   endings: all
-  startings: [html, head, body]
+  profile: false
+  blanklines: true

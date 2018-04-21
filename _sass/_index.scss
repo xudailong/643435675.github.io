@@ -185,12 +185,3 @@
 .define-scrollbar::-webkit-scrollbar-thumb:vertical {
     background: #666
 }
-
-body {
-    overflow: auto;
-    overflow-x: hidden;
-    -webkit-overflow-scrolling: touch;
-}
-body * {
-    -webkit-transform: translate3d(0,0,0);
-}

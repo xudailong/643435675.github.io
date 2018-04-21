@@ -5,7 +5,7 @@
 
 window.addEventListener("load", function() {
 	var wrapper = document.getElementById("wrapper");
-	wrapper.ontouchstart = function(e){
+	wrapper.ontouchmove = function(e){
 		e.preventDefault();
 	}
 	setTimeout(function() {

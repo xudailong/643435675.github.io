@@ -10,3 +10,7 @@ window.addEventListener("load", function() {
 		document.body.removeChild(wrapper);
 	}, 1200);
 });
+function move(e){
+    e.preventDefault();
+    e.stopPropagation();
+}

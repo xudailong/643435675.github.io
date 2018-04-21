@@ -10,17 +10,13 @@ author: 王文章
 * content
 {:toc}
 
+![Sublime Text3](https://i.loli.net/2018/04/21/5ada977792d0a.jpg)
 
-
-
-
-## 目的
-
-自从习惯了使用 eclipse 之后就非常喜欢它自带的快捷键。在这里将介绍如何使得习惯了 eclipse 中的快捷键但又想使用 Sublime 的小伙伴也适配上 eclipse 中的快捷键（部分，但是够用了。）
+自从习惯了使用 eclipse 之后就非常喜欢它自带的快捷键。在这里将介绍如何使得习惯了 eclipse 中的快捷键但又想使用 Sublime 的小伙伴也适配上 eclipse 中的快捷键的方法（部分，但是够用了。）
 
 ## 配置详情
 
-> #### *V 1.4 alpha*
+> 版本*V 1.4 alpha*
 
 ```js
 [

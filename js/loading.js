@@ -7,7 +7,7 @@ window.addEventListener("load", function() {
 	// document.body.style.overflow="hidden";
 	setTimeout(function() {
 		document.body.removeChild(wrapper);
-	}, 1300);
+	}, 1200);
 
 	// setTimeout(function(){
 	// document.body.style.overflowY="scroll";

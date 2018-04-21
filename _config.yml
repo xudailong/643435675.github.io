@@ -61,3 +61,9 @@ plugins: [jekyll-paginate]
 paginate: 6
 port: 4001
 theme: jekyll-theme-cayman
+
+compress_html:
+  clippings: all
+  comments: ["<!--", "-->"]
+  endings: all
+  startings: [html, head, body]

@@ -172,3 +172,11 @@
         }
     }
 }
+
+.define-scrollbar::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+.define-scrollbar::-webkit-scrollbar-track-piece {
+    background: #eee;
+}

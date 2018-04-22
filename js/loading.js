@@ -19,6 +19,7 @@ window.addEventListener("load", function() {
 
 	setTimeout(function(){
         document.body.style.overflowY="scroll";
-    },900);
+        document.body.classList.add("define-scrollbar");
+    },1000);
 });
 

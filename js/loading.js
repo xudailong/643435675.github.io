@@ -8,12 +8,12 @@
      e.stopPropagation();
  }
 
-document.addEventListener("touchstart",move,false);
+document.addEventListener("touchmove",move,false);
 window.addEventListener("load", function() {
 	var wrapper = document.getElementById("wrapper");
 	document.body.style.overflow="hidden";
 	setTimeout(function() {
-		document.removeEventListener("touchstart",move,false);
+		document.removeEventListener("touchmove",move,false);
 		document.body.removeChild(wrapper);
 	}, 1200);
 

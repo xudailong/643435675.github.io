@@ -16,9 +16,9 @@ window.addEventListener("load", function() {
 		document.removeEventListener("touchstart",move,false);
 		document.body.removeChild(wrapper);
 	}, 1200);
-	
+
 	setTimeout(function(){
         document.body.style.overflowY="scroll";
-    },1100);
+    },900);
 });
 

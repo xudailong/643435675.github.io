@@ -25,7 +25,7 @@
       nav.classList.remove('nav-show');
       menuBtn.classList.remove('active');
     });
-  }else{
+  } else {
     menuBtn.onclick = function(e) {
       e.stopPropagation();
       if (menuBtn.classList.contains('active')) {
@@ -39,6 +39,7 @@
     document.querySelector('body').addEventListener('click', function() {
       nav.classList.remove('nav-show');
       menuBtn.classList.remove('active');
+      return false;
     });
   }
 }());
@@ -60,10 +61,24 @@
     }
   })
 
-  // backToTopA.addEventListener('click',function (e) {
-  //     e.preventDefault()
-  //     window.scrollTo(0,0)
-  // })
+  let sTop;
+  window.onscroll = function() {
+    //sTop :滚动条距离顶部的距离数值
+    sTop = document.body.scrollTop || document.documentElement.scrollTop;
+  }
+
+  backToTopA.onclick = function() {
+    var termId = setInterval(function() {
+      sTop -= 50;
+      if (sTop <= 0) {
+        clearInterval(termId);
+      }
+      window.scrollTo(0, sTop);
+
+    }, 1);
+    return false;
+  }
+
 }());
 
 //////////////////////////hover on demo//////////////////////////////
@@ -71,15 +86,14 @@
   var demoItems = document.querySelectorAll('.grid-item')
 }());
 
-(function(){
-    var bp = document.createElement('script');
-    var curProtocol = window.location.protocol.split(':')[0];
-    if (curProtocol === 'https') {
-        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-    }
-    else {
-        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-    }
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(bp, s);
+(function() {
+  var bp = document.createElement('script');
+  var curProtocol = window.location.protocol.split(':')[0];
+  if (curProtocol === 'https') {
+    bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+  } else {
+    bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+  }
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(bp, s);
 })();

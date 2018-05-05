@@ -33,7 +33,7 @@ npm start
 
 1、OK，接着上一节的内容，另复制一份 first-webpack 文件夹。防止与上一节代码混淆。
 
-2、为了更好的对js文件进行模块化地划分，我们在根目录中新建一个==main.js==文件
+2、为了更好的对js文件进行模块化地划分，我们在根目录中新建一个*main.js*文件
 3、main.js 文件里使用以下代码来引入其他文件夹里的js，OK，再添加一个 js 文件夹，用来放前两小节用到的 index.js。
 
 ```js
@@ -115,7 +115,7 @@ module.exports = {
 ```
 
 
-10、在根目录 first-webpack 中新建一个 index.html，注意 里面引入打包好的js文件：==../build/main.bundle.js==
+10、在根目录 first-webpack 中新建一个 index.html，注意 里面引入打包好的js文件：*../build/main.bundle.js*
 
 ```html
 
@@ -142,7 +142,7 @@ npm start
 
 ```
 
-12、结果提示打包出现错误，失败了。。错误提示如下，大致意思是需要一个 loader 加载器来加载 css 文件，这里我们就需要一个 ==css-loader==，通过 css-loader，就可以实现在js文件中通过 require 的方式来引入css。
+12、结果提示打包出现错误，失败了。。错误提示如下，大致意思是需要一个 loader 加载器来加载 css 文件，这里我们就需要一个 *css-loader*，通过 css-loader，就可以实现在js文件中通过 require 的方式来引入css。
 
 ```js
 
@@ -153,7 +153,7 @@ You may need an appropriate loader to handle this file type.
 
 ```
 
-13、打开cmd，运行如下命令安装 ==css-loader==  
+13、打开cmd，运行如下命令安装 *css-loader*  
 
 ```js
 
@@ -161,7 +161,7 @@ npm install css-loader --save-dev
 
 ```
 
-安装完成后就得修改 ==webpack.config.js== 文件了，在其中加入 module 模块，具体接着见如下代码
+安装完成后就得修改 webpack.config.js 文件了，在其中加入 module 模块，具体接着见如下代码
 
 ```js
 
@@ -195,10 +195,10 @@ module.exports = {
 }
 
 ```
- 
+
 
 14、执行我们的 npm start 命令，诶，竟然打包成功，不报错了！
-15、打开 index.html 文件赶紧看看呗。然而打开后发现页面还是那样，没有样式。。这是怎么回事呢？原来 webpack 只是把 css 文件引入到 js 里了，但没有在html中以 style 的方式嵌入 css，因此我们还需要安装一个模块 ==style-loader== 执行以下命令。
+15、打开 index.html 文件赶紧看看呗。然而打开后发现页面还是那样，没有样式。。这是怎么回事呢？原来 webpack 只是把 css 文件引入到 js 里了，但没有在html中以 style 的方式嵌入 css，因此我们还需要安装一个模块 *style-loader* 执行以下命令。
 
 
 ```js
@@ -207,7 +207,7 @@ npm install style-loader --save-dev
 
 ```
 
-16、安装完成后继续修改配置文件呗，，将 ==webpack.config.js== 中 module 模块里的 loader 修改为如下代码，注意这里 模块 style 和 css 的位置固定，不可互换（loader加载方式为从上到下，从右往左），这里用了感叹号 " ! " 来分隔开。
+16、安装完成后继续修改配置文件呗，，将 *webpack.config.js* 中 module 模块里的 loader 修改为如下代码，注意这里 模块 style 和 css 的位置固定，不可互换（loader加载方式为从上到下，从右往左），这里用了感叹号 " ! " 来分隔开。
 
 ```js
 

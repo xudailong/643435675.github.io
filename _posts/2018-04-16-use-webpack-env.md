@@ -26,7 +26,7 @@ node_modules\.bin\webpack app/index.js build/index.bundle.js
 
 ## 过程
 
-本小节将简化这种操作，使用配置文件的方式来事先配置好webpack，无需使用繁琐的 ==“node_modules\.bin\webpack”== 命令，可以直接使用简短的命令来打包。
+本小节将简化这种操作，使用配置文件的方式来事先配置好webpack，无需使用繁琐的 *“node_modules\.bin\webpack”*命令，可以直接使用简短的命令来打包。
 
 1、接着上一节的内容，友情提示：另复制一份 first-webpack 文件夹。防止与上一节代码混淆。
 

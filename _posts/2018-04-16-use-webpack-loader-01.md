@@ -2,8 +2,8 @@
 layout: post
 title:  "webpack加载器loader的使用（上）"
 date:   2018-04-16 07:58:22
-categories: Webpack
-tags:  打包 Webpack
+categories: webpack
+tags:  打包 webpack
 author: 王文章
 ---
 

@@ -2,8 +2,8 @@
 layout: post
 title:  "webpack插件HtmlWebpackPlugin的用法"
 date:   2018-04-16 10:06:07
-categories: Webpack
-tags:  打包 Webpack
+categories: webpack
+tags:  打包 webpack
 author: 王文章
 ---
 

@@ -2,8 +2,8 @@
 layout: post
 title:  "Webpack 初次使用小结"
 date:   2018-04-16 07:31:04
-categories: Webpack
-tags:  打包 Webpack
+categories: webpack
+tags:  打包 webpack
 author: 王文章
 ---
 

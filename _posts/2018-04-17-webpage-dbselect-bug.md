@@ -2,8 +2,8 @@
 layout: post
 title:  "鼠标点击速度过快导致的蓝色背景bug"
 date:   2018-04-17 08:50:07
-categories: CSS
-tags:  bug CSS HTML
+categories: css
+tags:  bug css html
 author: 王文章
 ---
 

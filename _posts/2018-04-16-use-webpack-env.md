@@ -2,8 +2,8 @@
 layout: post
 title:  "webpack中的配置文件"
 date:   2018-04-16 07:35:35
-categories: Webpack
-tags:  打包 Webpack
+categories: webpack
+tags:  打包 webpack
 author: 王文章
 ---
 

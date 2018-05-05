@@ -39,7 +39,7 @@ ReactDOM.render(Hello, document.querySelector("#root"));
 
 ```
 
-执行 `npm run build`命令，想当然的，可以打包成功！，在弹出的页面中也会显示出 Hello react 字样。
+执行 `npm run build`命令，想当然的，打包成功！在弹出的页面中也会显示出 Hello react 字样。
 
 注意这是用 createElement 来创建虚拟 DOM，这样的创建方式有一个很大的缺点，那就是创建节点较麻烦，若含有多个嵌套关系，则代码就显得没有条理，不简洁。
 
@@ -77,12 +77,12 @@ ReactDOM.render(
 下面是安装 babel 的命令。
 
 ```js
-安装 babel 插件 
+// 安装 babel 插件 
 npm install babel-core babel-loader babel-plugin-transform-runtime -D
 
 npm install babel-preset-env babel-preset-stage-0 -D
 
-安装识别 JSX 语法的包
+// 安装识别 JSX 语法的包
 npm install babel-preset-react -D
 ```
 

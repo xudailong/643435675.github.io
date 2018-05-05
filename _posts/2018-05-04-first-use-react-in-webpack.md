@@ -3,7 +3,7 @@ layout: post
 title:  "搭建react+webpack脚手架（二）搭建react环境"
 date:   2018-05-04 09:04:58
 categories: react
-tags:  react webpack 脚手架
+tags:  react webpack babel 脚手架
 author: 王文章
 ---
 
@@ -15,6 +15,10 @@ author: 王文章
 在上一节中，我们搭建了 webpack 的基本环境，了解了`webpack-dev-server`自动更新内存托管及根据模板文件自动生成 html 的`html-webpack-plugin`插件。
 
 想必我们原来都是使用在页面中引入 react、react-dom 和 browser 这三个 js 的方式来编写 react 组件。这一节将在上一节的基础上搭建 react 脚手架，用模块化的方式来编写 react 组件，让我们来看看吧。
+
+
+
+
 
 ## 目录结构的修改
 

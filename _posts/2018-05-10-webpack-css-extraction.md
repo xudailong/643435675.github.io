@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "使用 webpack 对 css 进行分离式打包"
-date:   2018-05-04 09:04:58
-categories: react
+date:   2018-05-10 10:05:20
+categories: webpack
 tags:  webpack css 分离式
 author: 王文章
 ---
@@ -30,11 +30,11 @@ author: 王文章
 
 
 
-## 安装 extract-text-webpack-plugin 插件
+## 安装extract-text-webpack-plugin插件
 
 `extract-text-webpack-plugin` 的作用为抽离 css 样式文件
 
-执行命令安装，要注意这里，本次用到的 webpack 版本是 2.x 的，所以要安装对应 2.x 版本的 extract-text-webpack-plugin 插件。详见 [extract-text-webpack-plugin](https://www.npmjs.com/package/extract-text-webpack-plugin)。
+执行命令安装，要注意这里，本次用到的 webpack 版本是 2.x 的，所以要安装对应 2.x 版本的 extract-text-webpack-plugin 插件，否则可能会报如`chunk.sortModules is not a function`的错误。详见 [extract-text-webpack-plugin](https://www.npmjs.com/package/extract-text-webpack-plugin)。
 
 `npm install extract-text-webpack-plugin@2.1.2 --D`
 

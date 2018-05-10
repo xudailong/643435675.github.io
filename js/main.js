@@ -8,8 +8,8 @@
  * clickMenu
  */
 (function() {
-  var menuBtn = document.querySelector('#headerMenu')
-  var nav = document.querySelector('#headerNav')
+  var menuBtn = document.querySelector('#headerMenu');
+  var nav = document.querySelector('#headerNav');
   if (window.innerWidth <= 770) {
     menuBtn.onclick = function(e) {
       e.stopPropagation();
@@ -60,24 +60,6 @@
       backToTop.classList.remove('back-to-top-show')
     }
   })
-
-  let sTop;
-  window.onscroll = function() {
-    //sTop :滚动条距离顶部的距离数值
-    sTop = document.body.scrollTop || document.documentElement.scrollTop;
-  }
-
-  backToTopA.onclick = function() {
-    var termId = setInterval(function() {
-      sTop -= 50;
-      if (sTop <= 0) {
-        clearInterval(termId);
-      }
-      window.scrollTo(0, sTop);
-
-    }, 1);
-    return false;
-  }
 
 }());
 

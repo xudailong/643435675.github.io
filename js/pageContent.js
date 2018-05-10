@@ -14,13 +14,32 @@
         sidebarWrap.style.width = sidebarWrap.offsetWidth + "px";
         window.onscroll = function() {
 
+
+            // 回顶部按钮事件
+            let sTop;
+            //sTop :滚动条距离顶部的距离数值
+            sTop = document.body.scrollTop || document.documentElement.scrollTop;
+            let backToTopA = document.querySelector('.back-to-top a');
+            backToTopA.onclick = function() {
+                var termId = setInterval(function() {
+                    sTop -= 50;
+                    if (sTop <= 0) {
+                        clearInterval(termId);
+                    }
+                    window.scrollTo(0, sTop);
+
+                }, 1);
+                return false;
+            }
+
+
             // 页面顶部滚进去的距离
             var scrollTop = Math.max(document.documentElement.scrollTop, document.body.scrollTop);
 
 
             // 页面底部滚进去的距离
             var htmlHeight = Math.max(document.body.clientHeight, document.documentElement.clientHeight);
-                // console.log(htmlHeight);
+            // console.log(htmlHeight);
             var scrollBottom = htmlHeight - window.innerHeight - scrollTop
 
             if (scrollTop < 53) {
@@ -34,9 +53,10 @@
                 sidebarWrap.classList.add('scroll-bottom');
             }
         }
-        setContentMaxHeightInPC() //设置目录最大高度(PC端)
+        setContentMaxHeightInPC(); //设置目录最大高度(PC端)
     }
-    moveTOC() //将Content内容转移
+    moveTOC(); //将Content内容转移
+
 }());
 
 /**
@@ -59,8 +79,8 @@ function isMaxHeight() {
     var contentMaxHeight = windowHeight - 77 - 60
     var contentHeight = contentUl.offsetHeight
     return contentMaxHeight === contentHeight
-        // console.log(contentMaxHeight);
-        // console.log(contentHeight);
+    // console.log(contentMaxHeight);
+    // console.log(contentHeight);
 }
 
 
@@ -92,7 +112,7 @@ function isMaxHeight() {
 
         ancherPostion(anchorBtn, rightDiv); //目录锚的位置固定
         setContentMaxHeight(); //设置目录最大高度
-    }else{
+    } else {
         /**
          * 监听锚点按钮
          */
@@ -120,7 +140,7 @@ function ancherPostion(anchorBtn, rightDiv) {
     window.addEventListener('scroll', function() {
         // console.log('scroll');
         var top = anchorBtn.getBoundingClientRect().top;
-            // console.log(top);
+        // console.log(top);
         var scrollTop = Math.max(document.documentElement.scrollTop, document.body.scrollTop);
         if (scrollTop > 50) {
             anchorBtn.style.top = '20px';
@@ -152,23 +172,23 @@ function moveTOC() {
 
         // if (!isAndroidWechatBrowser()) {
 
-            //添加scroll样式，为了平滑滚动
-            //add class "scroll", for smooth scroll
-            var aTags = document.querySelectorAll('#content-side a');
+        //添加scroll样式，为了平滑滚动
+        //add class "scroll", for smooth scroll
+        var aTags = document.querySelectorAll('#content-side a');
 
-            //add class for everyone
-            // aTags.forEach(function () {
-            //     console.log(this);
-            // })
-            for (var i = 0; i < aTags.length; i++) {
-                // if (!aTags[i].classList.contains('scroll')) {
-                //     aTags[i].classList.add('scroll')
-                // }
-                if (!aTags[i].hasAttribute('data-scroll')) {
-                  aTags[i].setAttribute('data-scroll','');
-                }
-
+        //add class for everyone
+        // aTags.forEach(function () {
+        //     console.log(this);
+        // })
+        for (var i = 0; i < aTags.length; i++) {
+            // if (!aTags[i].classList.contains('scroll')) {
+            //     aTags[i].classList.add('scroll')
+            // }
+            if (!aTags[i].hasAttribute('data-scroll')) {
+                aTags[i].setAttribute('data-scroll', '');
             }
+
+        }
         // }
 
     }

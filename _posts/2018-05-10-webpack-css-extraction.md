@@ -36,7 +36,7 @@ author: 王文章
 
 执行命令安装，要注意这里，本次用到的 webpack 版本是 2.x 的，所以要安装对应 2.x 版本的 extract-text-webpack-plugin 插件，否则可能会报如`chunk.sortModules is not a function`的错误。详见 [extract-text-webpack-plugin](https://www.npmjs.com/package/extract-text-webpack-plugin)。
 
-`npm install extract-text-webpack-plugin@2.1.2 --D`
+`npm install extract-text-webpack-plugin@2.1.2 -D`
 
 具体的请看如下 `webpack.config.js` 配置文件，入口文件和其他资源文件的路径请自行配置。
 

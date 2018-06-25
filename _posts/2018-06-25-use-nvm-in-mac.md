@@ -7,6 +7,9 @@ tags:  nvm mac 环境配置
 author: 王文章
 ---
 
+* content
+{:toc}
+
 ## 目的
 
 之前一直在 *Windows* 系统下使用 *nvm* 来管理 *node*，这次换到了 *Mac* 环境，试着配置了一下。本文将介绍在配置的过程中遇到的问题及对问题的解决方案。
@@ -17,7 +20,7 @@ author: 王文章
 
 ## 安装 nvm
 
-```js
+```bash
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 ```
 
@@ -41,7 +44,7 @@ nvm version
 
 我们可以执行以下命令来配置
 
-```js
+```bash
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 ```
@@ -72,7 +75,7 @@ fi
 
 *.bashrc*
 
-```js
+```bash
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 ```
@@ -114,7 +117,7 @@ chsh -s /bin/zsh
 
 执行以下命令安装
 
-```js
+```bash
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
@@ -122,7 +125,7 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 
 在用户目录中找  *.zshrc* 文件，若没有，则创建一个，里面填写下面的内容即可。
 
-```js
+```bash
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 ```

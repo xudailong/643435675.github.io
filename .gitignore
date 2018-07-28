@@ -5,3 +5,5 @@ _site
 .idea
 .DS_Store
 **/node_modules/
+Gemfile
+Gemfile.lock

@@ -10,7 +10,7 @@ author: 王文章
 * content
 {:toc}
 
-## 概述
+![image](https://i.loli.net/2018/07/29/5b5db54082da2.gif)
 
 以前想要实现一个 `tab` 切换选项卡功能，首先想到的就是使用 `javascript` 和 `jQuery` 啦 ，如：点击当前 `tab` 显示出对应的内容，同时将其他 `tab`  及内容隐藏掉 。这个功能用 `javascript`很好实现，而今天，我们将不使用 `javascript` 代码，而采取高大上的 `css`选择器来实现同样的效果。
 

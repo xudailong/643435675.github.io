@@ -31,7 +31,7 @@ author: 王文章
 </iframe>
 
 或者看这个，两着均可
-<iframe width="100%" height="300" src="//jsfiddle.net/wangwenzhang/Lds0w76n/26/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/wangwenzhang/Lds0w76n/26/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ## 核心代码
 看不到的可以看以下代码：

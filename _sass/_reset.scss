@@ -88,10 +88,13 @@ blockquote {
     }
 }
 table {
+    width: 100%;
     border-top: 2px solid #777;
     border-bottom: 2px solid #777;
     margin: 8px 0;
     border-collapse: collapse;
+    word-wrap:break-word;
+    word-break:break-all;
     thead {
         border-bottom: 1px solid #777;
         background-color: #aaa;

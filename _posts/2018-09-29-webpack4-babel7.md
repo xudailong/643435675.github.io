@@ -18,7 +18,7 @@ author: 王文章
 
 
 
-> ### webpack `3.x` => webpack `4.x`
+### webpack `3.x` => webpack `4.x`
 
 ## 废弃的插件
 
@@ -92,15 +92,14 @@ author: 王文章
 
 将 `babel` 升级到当前最新版 7.x
 
-依照官网：https://webpack.js.org/loaders/babel-loader
+依照官网：[https://webpack.js.org/loaders/babel-loader](https://webpack.js.org/loaders/babel-loader)
+#### webpack `4.x` + babel-loader `8.x` + babel `7.x`
 
-> webpack 4.x | babel-loader 8.x | babel 7.x
->
-> `npm install -D babel-loader @babel/core @babel/preset-env webpack`
+> npm install -D babel-loader @babel/core @babel/preset-env webpack
 
-> webpack 4.x | babel-loader 7.x | babel 6.x
->
-> `npm install -D babel-loader@7 babel-core babel-preset-env webpack`
+#### webpack `4.x` + babel-loader `7.x` + babel `6.x`
+
+> npm install -D babel-loader@7 babel-core babel-preset-env webpack
 
 ## 两种 Babel7 配置方式
 
@@ -110,7 +109,7 @@ author: 王文章
 | 第二种 | 6.x   | 7.x    | babel-core  | babel-preset-env  | 4.x     |
 
 
-> 注：环境预设包 preset-env 会根据用户自定义配置的目标运行环境自动启用目标浏览器所需的 babel 插件，来达到按需编译的目的，详见官网介绍：https://babeljs.io/docs/en/babel-preset-env/
+> 注：环境预设包 preset-env 会根据用户自定义配置的目标运行环境自动启用目标浏览器所需的 babel 插件，来达到按需编译的目的，详见官网介绍：[https://babeljs.io/docs/en/babel-preset-env/](https://babeljs.io/docs/en/babel-preset-env/)
 
 
 既然本着升级到最新的原则，那么我们就来走第一种，
@@ -118,7 +117,7 @@ author: 王文章
 ## 迁移工具 babel-upgrade
 若原本的项目本身含有 babel-preset-* 等依赖，那么我们可以这么做，
 
-有一种简便快速的方法，快速配置，详见这里 babel 的升级迁移指南：https://github.com/babel/babel-upgrade
+有一种简便快速的方法，快速配置，详见这里 babel 的升级迁移指南：[https://github.com/babel/babel-upgrade](https://github.com/babel/babel-upgrade)
 
 只需执行一条命令，使用 npx 命令前提得保证 node 版本不小于 v5.2.0，否则需要单独安装 npx
 
@@ -142,7 +141,6 @@ npx babel-upgrade --write --install
 "babel-preset-es2015": "^6.24.1",
 "babel-preset-react": "^6.24.1",
 "babel-preset-stage-2": "^6.24.1",
-
 ...
 
 ```
@@ -168,7 +166,6 @@ npx babel-upgrade --write --install
 "@babel/preset-env": "^7.0.0",
 "@babel/preset-react": "^7.0.0", 
 "babel-loader": "^8.0.0", // 这里可以看到改变，babel-loader7.x => 8.x
-
 ...
 
 ```
@@ -177,7 +174,8 @@ npx babel-upgrade --write --install
 
 安装完后再用 webpack 打包可能会发现报如下错误（警告）
 
-```
+```js
+
 export 'default' (imported as 'xxx') was not found in 'xxx' 
 
 ```
@@ -185,7 +183,8 @@ export 'default' (imported as 'xxx') was not found in 'xxx'
 这里并不是说我们语法有错误，而是 babel 自身没有将 es6 的代码编译成 es5
 
 经过研究，发现安装此插件就会恢复正常，
-```
+```bash
+
 yarn add @babel/plugin-transform-modules-commonjs -D
 
 or
@@ -193,16 +192,18 @@ or
 npm install @babel/plugin-transform-modules-commonjs -D
 
 ```
+
 貌似这是 babel 迁移工具的 bug ，没有将全部依赖集成到 babel-upgrade 中，导致了 es6 最基本的语法都不会被编译。
 
 我们知道 `babel-polyfill` 变成了 `@babel/polyfill`，所以 webpack.config.js 中的入口文件那里也需要进行相应的改变
 
-```
+```js
+
 module.exports = {
   entry: ['babel-polyfill','./src/script/app.js'],
 }
 
-修改为
+// 修改为
 
 module.exports = {
   entry: ['@babel/polyfill','./src/script/app.js'],
@@ -210,14 +211,14 @@ module.exports = {
 
 ```
 
-
 若打包时提示此类错误 Cannot find module from babel-runtime ...
 
 则安装 `@babel/runtime` 和 `@babel/runtime-corejs2` ，并在 .babelrc 中配置即可。
 
-详见官网的配置讲解：https://babeljs.io/docs/en/babel-plugin-transform-runtime
+详见官网的配置讲解：[https://babeljs.io/docs/en/babel-plugin-transform-runtime](https://babeljs.io/docs/en/babel-plugin-transform-runtime)
 
-```
+```bash
+
 yarn add @babel/runtime @babel/runtime-corejs2 -S
 
 or
@@ -228,7 +229,8 @@ npm install @babel/runtime @babel/runtime-corejs2 -S
 
 最终 .babelrc ，仅供参考。
 
-```
+```js
+
 {
   "presets": [
     [
@@ -273,7 +275,8 @@ npm install @babel/runtime @babel/runtime-corejs2 -S
 ## 附：迁移过程 log
 仅供参考，自动配置的不一定正确，还需要对照官网和 issue 问题来配置。
 
-```
+```bash
+
 Updating .babelrc config at .babelrc
 Index: .babelrc
 ===================================================================
@@ -347,7 +350,6 @@ Index: /Users/admin/Documents/zhike/Mypractice/project/react-app/package.json
 -    "babel-preset-es2015": "^6.24.1",
 -    "babel-preset-react": "^6.24.1",
 -    "babel-preset-stage-2": "^6.24.1",
-
 
 Installing new dependencies
 

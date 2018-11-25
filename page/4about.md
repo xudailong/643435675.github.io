@@ -9,7 +9,7 @@ type: page
 * content
 {:toc}
 
-<img src="https://raw.githubusercontent.com/pdsuwwz/wwzImages/master/images/my-header.jpg" style="border: 0;height: 150px;width: 150px;overflow: hidden; background-color: #222"/>
+<img src="https://avatars0.githubusercontent.com/u/19891724?s=460&v=4" style="border: 0;height: 150px;width: 150px;overflow: hidden; background-color: #222"/>
 
 ## 联系
 
@@ -18,8 +18,26 @@ type: page
 * 网易云音乐：[收藏一夏的阳光](http://music.163.com/#/user/home?id=105840719)
 
 ## 经历
+* 2018年 十一月
 
-* 2018年 二月
+> 工作已经过去半年了，学到了不少东西，先记录下自己的技术栈，另外还要接下来要学习的东西。
+> 
+> HTML, CSS3, js 模块化, 
+> 
+> React 技术栈, ES6, SCSS, Webpack, git
+
+> 下一步：
+> 
+> 巩固 React 及 Webpack 相关知识
+> 
+> 深入 javscript
+> 
+> Redux 应用
+> 
+> 学习 Node
+
+
+* 2018年 五月
 
 > 当时还没有毕业，寻思在网上投递简历寻找实习工作。
 > 

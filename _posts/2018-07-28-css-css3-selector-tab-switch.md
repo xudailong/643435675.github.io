@@ -27,7 +27,7 @@ author: 王文章
   }
 </style>
 我们首先来看看效果怎样，以下示例页面可以看到（除非被 GFW ）
-<iframe height='300' scrolling='no' title='纯 css 实现选项卡' src='//codepen.io/XDB/embed/EpbLKy/?height=300&theme-id=dark&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/XDB/pen/EpbLKy/'>纯 css 实现选项卡</a> by pdsuwwz (<a href='https://codepen.io/XDB'>@XDB</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe height='300' scrolling='no' title='WKdoPR' src='//codepen.io/XDB/embed/WKdoPR/?height=300&theme-id=34141&default-tab=css,result' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/XDB/pen/WKdoPR/'>WKdoPR</a> by pdsuwwz (<a href='https://codepen.io/XDB'>@XDB</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
 或者看这个，两着均可

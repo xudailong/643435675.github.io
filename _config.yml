@@ -6,24 +6,24 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: 徐代龙的技术专栏
-brief-intro: Android and Python Coder
+title: 空被的柳
+brief-intro: 打算写点什么,代码或小说~~
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://643435675.github.io" # the base hostname & protocol for your site
+url: "https://wangwenying.github.io" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
 # other links
-twitter_username: #gaohaoyang126
-facebook_username: #gaohaoyang.water
-github_username:  643435675
-email: 643435675@QQ.com
-weibo_username: 3115521wh
-zhihu_username: hll643435675
-linkedIn_username: gaohaoyang
+twitter_username: #t_andrewnow
+facebook_username: #
+github_username:  wangwenying
+email: andrewnow@QQ.com
+weibo_username: wangwenying
+zhihu_username:
+linkedIn_username:
 dribbble_username:
 
-description_footer: 来自徐代龙的个人专栏！
+description_footer: “不过人不是为失败而生的，”他说,“一个人可以被毁灭，但不能被打败。”
 
 # comments
 # two ways to comment, only choose one, and use your own short name
@@ -59,3 +59,4 @@ excerpt_separator: "\n\n\n\n"
 plugins: [jekyll-paginate]
 paginate: 6
 port: 4001
+theme: jekyll-theme-slate

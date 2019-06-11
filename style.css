@@ -1,136 +1,178 @@
-       /* body{
-            background:rgba(196, 196, 196, 0.705);
-            font-family: Arial, Helvetica, sans-serif;
-            color:white;
-        }
-        h1{
-            color:red;
-        }
-        h2{
-            color:rgb(87, 90, 90);
-            opacity: 0.5;
-        }
-        button{
-            background: gray;
-            border:none;
-            color:hotpink;
-        } */
-        body {
-            background: white;
-            color: white;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
+/* body{
+    background:rgba(196, 196, 196, 0.705);
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+h1{
+    color:red;
+}
+h2{
+    color:rgb(87, 90, 90);
+    opacity: 0.5;
+}
+button{
+    background: gray;
+    border:none;
+    color:hotpink;
+} */
+body {
+    background: white;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* HEADER */
+header {
+    background-color: black;
+    background-image: url("image/hero.jpg");
+    background-size: 100%;
+    background-position: center;
+    color: yellow;
+    padding: 10px;
+    height: 400px;
+    text-align: center;
+}
+header a {
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
 
-        header {
-            background-color: black;
-            background-image: url("image/hero.jpg");
-            background-size: 100%;
-            background-position: center;
-            color: yellow;
-            padding: 10px;
-            height: 400px;
-            text-align: center;
-        }
-        header a{
-            color:white;
-            text-decoration: none;
-            text-transform: uppercase;
-            margin-top: 40px;
-        }
-        header .logo a{
-            background-image: url("image/logo.png");
-            background-size: 300px;
-            background-repeat: no-repeat;
-            display: inline-block;
-            height: 80px;
-            position: relative;
-            text-indent: -999999px;
-            top: -30px;
-            width: 300px;
-            
-        }
+header .mobile {
+    display: none;
+}
 
-        .features {
-            background: white;
-            color: gray;
-            padding: 20px;
-            display: flex;
-            flex-direction: row;
-        }
-        .features figure {
-            width: 100%;
-            margin:auto;
-            text-transform: uppercase;
-            color: gray;
-            text-align: center;
-
-        }
-        .features figure img {
-            border: 1px solid white;
-            width: 200px;
-            border-radius: 50%;
-            height: 200px;
-            box-shadow: gray 0 0 10px;
-        }
-        section.feature-box {
-            display:flex;
-        }
-        .feature-box div{
-            width: 100%;
-            margin:1px;
-        }
-        .feature-box.sales div {
-            background: rgba(226, 43, 43, 0.788);
-        }
-        .feature-box.closeouts div {
-            background: rgba(46, 43, 226, 0.788);
-        }
+header .logo a{
+    background-image: url("image/logo.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 80px;
+    position: relative;
+    text-indent: -999999px;
+    top: -30px;
+    width: 300px;
+    
+}
 
 
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
 
-        ul {
-            margin: 0;
-            padding: 0;
-            list-style-type: none;
-        }
+nav  li {
+    border-radius: 3px;
+    display: inline-block;
+    margin-left: 20px;
+    padding: 3px;
+}
 
-        li {
-            border-radius: 3px;
-            display: inline-block;
-            margin-left: 20px;
-            padding: 3px;
-        }
+li:hover{
+    background-color: red;
+}
+li:first-child{
+    margin-left: 0;
+}
+/* RESPONSIVE RULES */
+@media screen and (max-width: 704px){
+    header {
+        height: 200px;
+    }
+    header .desktop {
+        display: none;
+    }
+    header .mobile {
+        display: inline-block;
+    }
 
-        li:hover{
-            background-color: red;
-        }
+}
+/* FEATUER */
+.features {
+    background: white;
+    color: gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.features figure {
+    width: 200px;
+    padding: 5px;
+    margin:auto;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+.features figure img {
+    border: 1px solid white;
+    width: 200px;
+    border-radius: 50%;
+    height: 200px;
+    box-shadow: gray 0 0 10px;
+}
 
-        a {
-            text-decoration: none;
-        }
+/* RESPONSIVE RULES */
+/* @media screen and (max-width: 704px){
+    .features {
+    display: block;
+    }
+}
 
-        a:hover{
-            text-decoration: underline;
-        }
+section.feature-box {
+    display:flex;
 
-        li:first-child{
-            margin-left: 0;
-        }
-        footer {
-            background-color: rgb(153, 153, 123);
-            color: white;
-            padding: 13px;
-            text-align: center;
-        }
+}
+.feature-box div{
+    width: 100%;
+    margin:1px;
+    
+}
+.feature-box.sales div {
+    background: rgba(226, 43, 43, 0.788);
+}
+.feature-box.closeouts div {
+    background: rgba(46, 43, 226, 0.788);
+}
 
-        footer img{
-            width: 20px;
-            height: 20px;
-            position: relative;
-            top: 5px;
-        }
-        #frank{
-            font-size: 100%;
-        }
+
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+} */
+
+/* FOOTER */
+footer {
+    background-color: rgb(153, 153, 123);
+    color: white;
+    padding: 13px;
+    text-align: center;
+}
+
+footer img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+}
+#frank{
+    font-size: 100%;
+}
+
+
+/*图片测试*/
+.hide{
+    display: none;
+}
+img{
+    width: 200px;
+}

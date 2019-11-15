@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "CentOS7定时任务详解"
-categories: linux
-tags:  centos7 crontab linux 工具软件  
-author: SnakeSon
+title:  "终于可以开始记录了"
+categories: diary
+tags:  feeling living 'step forward' 
+author: FireCheng
 ---
 
 * content
@@ -12,9 +12,9 @@ author: SnakeSon
 
 ## 前言
 
-工作中需要开启一个定时任务：每天晚上2点进行爬虫代码的运行，这不得不去学习一下linux 下的定时任务crontab
+今天折腾了一天，终于可以顺利Po出我的日记了，开心。当务之急是尽快熟练操作Markdown,以便最大限度的发挥其优势，丰富日记的表现形式。
 
-##  crontab
+##  正文
 
 
 yum install crontabs

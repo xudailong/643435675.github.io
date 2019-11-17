@@ -14,31 +14,30 @@ author: FireCheng
 
 1. 使用=和-标记一级和二级标题  
 语法如下：  
-> 一级标题下面加一排等号  
+> 一级标题下面加一排等号    
 > ====================  
-> ****
-> 二级标题下面加一排减号
+> 二级标题下面加一排减号  
 > --------------------  
 
-2. 使用#号标记
+2. 使用#号标记  
 
-语法如下：
+语法如下：  
 使用<kbd>#</kbd>号可以表示1-6级标题，一级标题对应一个<kbd>#</kbd>号，二级标题对应两个<kbd>#</kbd>号，以此类推。
 
-> \# 一级标题
-> \#\# 二级标题
-> \#\#\# 三级标题
-> \#\#\#\# 四级标题
-> \#\#\#\#\# 五级标题
-> \#\#\#\#\#\# 六级标题
+> \# 一级标题  
+> \#\# 二级标题  
+> \#\#\# 三级标题  
+> \#\#\#\# 四级标题  
+> \#\#\#\#\# 五级标题  
+> \#\#\#\#\#\# 六级标题  
 
 显示效果如下：
-> # 一级标题
-> ## 二级标题
-> ### 三级标题
-> #### 四级标题
-> ##### 五级标题
-> ###### 六级标题
+> # 一级标题  
+> ## 二级标题  
+> ### 三级标题  
+> #### 四级标题  
+> ##### 五级标题  
+> ###### 六级标题  
 
 # Markdown 段落  
 
@@ -64,7 +63,7 @@ author: FireCheng
 
 ## 分隔线  
 
-在一行中使用**三个以上**的<kbd>#</kbd>,<kbd>-</kbd>或底线，可以建立一个分隔线，行内不能有其他东西，<kbd>#</kbd>和<kbd>-</kbd>之间可以插入空格：  
+在一行中使用**三个以上**的<kbd>8</kbd>,<kbd>-</kbd>或底线，可以建立一个分隔线，行内不能有其他东西，<kbd>#</kbd>和<kbd>-</kbd>之间可以插入空格：  
 
 > \*\*\*  
 > \* \* \*  
@@ -74,6 +73,7 @@ author: FireCheng
 > \-\-\-\-\-\-  
 
 显示效果：  
+
 ***  
 * * *  
 ******  
@@ -93,7 +93,7 @@ author: FireCheng
 
 ## 下划线  
 
-可通过HTML的<\u>标签来实现：  
+可通过HTML的<u>标签来实现：  
 > <u\>带下划线的文本<\/u\>  
 
 显示效果：  
@@ -110,7 +110,7 @@ example:
 
 显示效果:  
 
-    创建一个脚注[^我是脚注]  
+创建一个脚注[^我是脚注]  
 
 # Markdown 列表  
 
@@ -132,17 +132,17 @@ example:
 
 显示结果：  
 
-    * 第一项  
-    * 第二项  
-    * 第三项  
+   * 第一项  
+   * 第二项  
+   * 第三项  
 
-    + 第一项  
-    + 第二项  
-    + 第三项  
+   + 第一项  
+   + 第二项  
+   + 第三项  
 
-    - 第一项  
-    - 第二项  
-    - 第三项  
+   - 第一项  
+   - 第二项  
+   - 第三项  
 
 ## 有序列表
 
@@ -163,20 +163,20 @@ example:
 列表嵌套只需**在子列表的选项中添加四个空格即可**:  
 
 > 1\. 第一项：  
-    \- 第一项嵌套的第一个元素  
-    \- 第一项嵌套的第二个元素  
+>    \- 第一项嵌套的第一个元素  
+>    \- 第一项嵌套的第二个元素  
 > 2\. 第二项：  
-    \- 第二项嵌套的第一个元素  
-    \- 第二项嵌套的第二个元素  
+>    \- 第二项嵌套的第一个元素  
+>    \- 第二项嵌套的第二个元素  
 
 显示效果：  
 
-    1. 第一项：  
-        - 第一项嵌套的第一个元素  
-        - 第一项嵌套的第二个元素  
-    2. 第二项：  
-        - 第二项嵌套的第一个元素  
-        - 第二项嵌套的第二个元素  
+   1. 第一项：  
+       - 第一项嵌套的第一个元素  
+       - 第一项嵌套的第二个元素  
+   2. 第二项：  
+       - 第二项嵌套的第一个元素  
+       - 第二项嵌套的第二个元素  
 
 # Markdown 区块  
 
@@ -208,7 +208,7 @@ Markdown 区块引用是在段落开头使用<kbd>></kbd>符号，然后后面�
 
 用法如下：  
 
-> \> 区块中使用列表
+> \> 区块中使用列表  
 > \> 1\. 第一项  
 > \> 2\. 第二项  
 > \> \+ 第一项  
@@ -225,7 +225,151 @@ Markdown 区块引用是在段落开头使用<kbd>></kbd>符号，然后后面�
 > + 第三项  
 
 ## 列表中使用区块  
+如果要在列表项目内放进区块，那么就需要**在<keygen>></keygen>前面添加四个空格的缩进**。  
+实例如下：  
+> \* 第一项  
+>     \> 学如逆水行舟  
+>     \> 不进则退  
+> \* 第二项  
 
+显示效果：  
+* 第一项  
+    > 学如逆水行舟  
+    > 不进则退  
+* 第二项  
+
+# Markdown 代码  
+如果是段落上的一个函数或片段的代码可以用反引号把它包起来（\`），例如：  
+> \`printf()\`函数  
+显示结果如下：  
+`printf()`函数  
+
+## 代码区块  
+代码区块使用**四个空格**或者**一个制表符（Tab键）**  
+实例如下：  
+！[代码区块图片](https://www.runoob.com/wp-content/uploads/2019/03/55EDFE05-5F27-458E-AFE0-7B96685C9603.jpg)  
+
+显示效果如下：  
+	<?php
+	echo 'RUNOOB';
+	function test() {
+    echo 'test'
+    }  
+
+你也可以用<keygen>\`\`\`</keygen>包裹一段代码，并指定一种语言（也可以不指定）：  
+> \`\`\`javascript  
+> $(document).ready(function () {
+>    alert(\`RUNOOB\`);	
+> });  
+> \`\`\`  
+
+显示结果如下：  
+```javascript  
+$(document).ready(function () {
+	alert(`RUNOOB`);
+});
+```  
+# Markdown 链接  
+链接使用方法如下：  
+> \[链接名称]\(链接地址)  
+>    
+> 或者  
+> 
+> <链接地址\>  
+
++ 例如：  
+> 这是一个链接\[博主照片]\(https://s9.rr.itc.cn/r/wapChange/201610_6_17/a6tnit59312696559445.jpg)  
+
+显示结果如下：  
+这是一个链接[博主照片](https://s9.rr.itc.cn/r/wapChange/201610_6_17/a6tnit59312696559445.jpg)  
+
++ 直接使用地址链接：  
+> \<https://s9.rr.itc.cn/r/wapChange/201610_6_17/a6tnit59312696559445.jpg>  
+显示结果如下：  
+<https://s9.rr.itc.cn/r/wapChange/201610_6_17/a6tnit59312696559445.jpg>  
+
+## 高级链接  
+> 链接也可以用变量来代替，文档末尾附带变量地址：  
+> 这个链接用1作为网址变量 \[Google\]\[1\]  
+> 这个链接用runoob作为网址变量 \[Runoob\]\[runoob\]  
+> 然后在文档的结尾为变量赋值（网址）  
+>   
+> \[1\]: http://www.google.com/  
+> \[runoob\]: http://www.runoob.com/ 
+
+显示结果如下：  
+这个链接用1作为网址变量 [Google][1]  
+这个链接用runoob作为网址变量 [Runoob][runoob]  
+然后在文档的结尾为变量赋值（网址）
+
+[1]: http://www.google.com/  
+[runoob]: http://www.runoob.com/
+
+# Markdown 图片  
+Markdown 图片语法如下：  
+> \!\[alt 属性文本\]\(图片地址\)  
+> \!\[alt 属性文本\]\(图片地址 "可选标题"\)  
+- 开头一个感叹号！  
+- 接着一个方括号，里面放上图片的替代文字  
+- 接着一个普通括号，里面放上图片的网址，最后还可以用引号包住并加上选择性的'title'属性的文字。  
+使用实例:  
+> \!\[博主第二波帅照\]\(https://www.google.com/url?sa=i&source=imgres&cd=&cad=rja&uact=8&ved=2ahUKEwjv4dmknvLlAhWQY98KHWapCI0QjRx6BAgBEAQ&url=http%3A%2F%2Fwww.sohu.com%2Fa%2F141720569_585208&psig=AOvVaw04wMopC8bglftJn6qVe0NC&ust=1574114143881036)  
+> \[博主第三波帅照\]\(https://www.google.com/url?sa=i&source=imgres&cd=&cad=rja&uact=8&ved=2ahUKEwjv4dmknvLlAhWQY98KHWapCI0QjRx6BAgBEAQ&url=http%3A%2F%2Fwww.sohu.com%2Fa%2F141720569_585208&psig=AOvVaw04wMopC8bglftJn6qVe0NC&ust=1574114143881036 "博主本人")  
+
+显示结果如下：  
+![博主第二波帅照](https://www.google.com/url?sa=i&source=imgres&cd=&cad=rja&uact=8&ved=2ahUKEwjv4dmknvLlAhWQY98KHWapCI0QjRx6BAgBEAQ&url=http%3A%2F%2Fwww.sohu.com%2Fa%2F141720569_585208&psig=AOvVaw04wMopC8bglftJn6qVe0NC&ust=1574114143881036)  
+![博主第三波帅照](https://www.google.com/url?sa=i&source=imgres&cd=&cad=rja&uact=8&ved=2ahUKEwjv4dmknvLlAhWQY98KHWapCI0QjRx6BAgBEAQ&url=http%3A%2F%2Fwww.sohu.com%2Fa%2F141720569_585208&psig=AOvVaw04wMopC8bglftJn6qVe0NC&ust=1574114143881036 "博主本人")  
+
+当然，也可以像网址那样对图片网址使用变量  
+> 这个链接用1作为网址变量 \[博主第二波帅照\]\[2\]  
+> 然后在文档的结尾为变量赋值（网址）  
+>  
+> \[1\]:https://www.google.com/url?sa=i&source=imgres&cd=&cad=rja&uact=8&ved=2ahUKEwjv4dmknvLlAhWQY98KHWapCI0QjRx6BAgBEAQ&url=http%3A%2F%2Fwww.sohu.com%2Fa%2F141720569_585208&psig=AOvVaw04wMopC8bglftJn6qVe0NC&ust=1574114143881036  
+
+显示效果：  
+这个链接用1作为网址变量 [博主第二波帅照][2]    
+然后在文档的结尾为变量赋值（网址）  
+
+[2]:https://www.google.com/url?sa=i&source=imgres&cd=&cad=rja&uact=8&ved=2ahUKEwjv4dmknvLlAhWQY98KHWapCI0QjRx6BAgBEAQ&url=http%3A%2F%2Fwww.sohu.com%2Fa%2F141720569_585208&psig=AOvVaw04wMopC8bglftJn6qVe0NC&ust=1574114143881036   
+
+Markdown还没有办法指定图片的高度与宽度，如果你需要的话，你可以使用普通的\<img>标签：  
+> \<img src="https://www.google.com/url?sa=i&source=imgres&cd=&cad=rja&uact=8&ved=2ahUKEwjv4dmknvLlAhWQY98KHWapCI0QjRx6BAgBEAQ&url=http%3A%2F%2Fwww.sohu.com%2Fa%2F141720569_585208&psig=AOvVaw04wMopC8bglftJn6qVe0NC&ust=1574114143881036" width="50%"\>  
+
+显示结果：  
+<img src="https://www.google.com/url?sa=i&source=imgres&cd=&cad=rja&uact=8&ved=2ahUKEwjv4dmknvLlAhWQY98KHWapCI0QjRx6BAgBEAQ&url=http%3A%2F%2Fwww.sohu.com%2Fa%2F141720569_585208&psig=AOvVaw04wMopC8bglftJn6qVe0NC&ust=1574114143881036" width="50%">  
+# Markdown 表格  
+Markdown制作表格使用`|`来分隔不同的单元格，使用`-`来分隔表头和其他行。  
+语法如下：  
+> \| 表头 \| 表头 \|  
+> \| ---- \| ---- \|  
+> \| 单元格 \| 单元格 \|  
+> \| 单元格 \| 单元格 \|  
+
+显示结果：  
+| 表头 | 表头 |  
+| ---- | ---- |  
+| 单元格 | 单元格 |  
+| 单元格 | 单元格 |  
+
+## 对齐方式  
+设置表格对齐方式：  
++ `-:`内容与标题栏居右对齐  
++ `:-`内容与标题栏居左对齐  
++ `：-:`内容与标题栏居中对齐  
+
+实例如下：  
+> \| 左对齐 \| 右对齐 \| 居中对齐 \|  
+> \| :---- \| ----: \| :----: \|  
+> \| 单元格 \| 单元格 \| 单元格 \|  
+> \| 单元格 \| 单元格 \| 单元格 \|  
+
+显示效果：  
+| 左对齐 | 右对齐 | 居中对齐 |  
+| :---- | ----: | :----: |  
+| 单元格 | 单元格 | 单元格 |  
+| 单元格 | 单元格 | 单元格 |  
+
+# Markdown 高级技巧  
 
 
 

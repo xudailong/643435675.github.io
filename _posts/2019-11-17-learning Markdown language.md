@@ -250,7 +250,7 @@ Markdown 区块引用是在段落开头使用`>`符号，然后后面紧跟一�
 ![代码区块图片](https://www.runoob.com/wp-content/uploads/2019/03/55EDFE05-5F27-458E-AFE0-7B96685C9603.jpg)  
 
 显示效果如下：  
-	<?php  
+	&ensp;&ensp;&ensp;&ensp;<?php  
 	echo 'RUNOOB';  
 	function test() {  
     echo 'test'  

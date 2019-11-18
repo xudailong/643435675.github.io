@@ -240,13 +240,14 @@ Markdown 区块引用是在段落开头使用`>`符号，然后后面紧跟一�
 # Markdown 代码  
 如果是段落上的一个函数或片段的代码可以用反引号把它包起来（\`），例如：  
 > \`printf()\`函数  
+
 显示结果如下：  
 `printf()`函数  
 
 ## 代码区块  
 代码区块使用**四个空格**或者**一个制表符（Tab键）**  
 实例如下：  
-！[代码区块图片](https://www.runoob.com/wp-content/uploads/2019/03/55EDFE05-5F27-458E-AFE0-7B96685C9603.jpg)  
+![代码区块图片](https://www.runoob.com/wp-content/uploads/2019/03/55EDFE05-5F27-458E-AFE0-7B96685C9603.jpg)  
 
 显示效果如下：  
 	<?php  

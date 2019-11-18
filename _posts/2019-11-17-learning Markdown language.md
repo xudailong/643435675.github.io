@@ -371,7 +371,58 @@ Markdown制作表格使用`|`来分隔不同的单元格，使用`-`来分隔表
 
 # Markdown 高级技巧  
 
+## 支持的HTML元素  
 
+不在Markdown涵盖范围之内的标签，都可以直接在文档里面用HTML撰写。  
+目前支持的HTML元素有： <kbd> <b> <i> <em> <sup> <sub> <br>等，如：  
+> 使用\<kbd>Ctrl\</kbd>+\<kbd>Alt\</kbd>+\<kbd>Del\</kbd>重启电脑  
+
+输出结果为：  
+使用<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd>重启电脑  
+
+## 转义  
+Markdown使用了很多特殊符号来表示特定的意义，如果需要显示特定的符号则需要使用转义字符，Markdown 使用反斜杠转义特殊字符：  
+> \*\*文本加粗\*\*  
+> \\\*\\\*文本正常显示星号\\\*\\\*  
+
+输出结果为：  
+**文本加粗**  
+\*\*文本正常显示星号\*\*  
+
+Markdown支持以下这些符号前面加上反斜杠来帮助插入普通的符号：  
+> \\ 反斜线  
+> \` 反引号  
+> \* 星号  
+> \_ 下划线  
+> \{\} 花括号  
+> \[\] 方括号  
+> \(\) 小括号  
+> \# 井字号  
+> \+ 加号  
+> \- 减号  
+> \. 英文句点  
+> \! 感叹号  
+
+## 公式  
+
+当你需要在编辑器中插入数学公式时，可以用两个美元符号$$包裹Tex或LaTex格式的数学公式来实现。提交后，问答和文章页会根据需要加载Mathjax对数学公式进行渲染。如：  
+> $$  
+> \\mathbf{V}\_1 \\times \\mathbf{V}\_2 = \\begin{vmatrix}  
+> \\mathbf{i} & \\mathbf{j} & \\mathbf{k} \\\\  
+> \\frac{\\partial X}{\\partial u} & \\frac{\\partial Y}{\\partial u} & 0 \\\\  
+> \\frac{\\partial X}{\\partial v} & \\frac{\\partial Y}{\\partial v} & 0 \\\\  
+> \\end{vmatrix}  
+> $$tep1}{\\style{visibility:hidden}{(x+1)(x+1)}}  
+> \$$  
+
+输出结果为：  
+$$  
+\mathbf{V}_1 \times \mathbf{V}_2 = \begin{vmatrix}  
+\mathbf{i} & \mathbf{j} & \mathbf{k} \\  
+\frac{\partial X}{\partial u} & \frac{\partial Y}{\partial u} & 0 \\  
+\frac{\partial X}{\partial v} & \frac{\partial Y}{\partial v} & 0 \\  
+\end{vmatrix}  
+$$
 
 
 [^我是脚注]: 谁最帅？ 创建这个脚注的人！

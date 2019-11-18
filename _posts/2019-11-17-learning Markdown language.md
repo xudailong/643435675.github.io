@@ -379,7 +379,7 @@ Markdown制作表格使用`|`来分隔不同的单元格，使用`-`来分隔表
 > 使用\<kbd\>Ctrl\</kbd\>+\<kbd\>Alt\</kbd\>+\<kbd\>Del\</kbd\>重启电脑  
 
 输出结果为：  
-使用<kbd>Ctrl</sub>+`Alt`+`Del`重启电脑  
+使用<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd>重启电脑  
 
 ## 转义  
 Markdown使用了很多特殊符号来表示特定的意义，如果需要显示特定的符号则需要使用转义字符，Markdown 使用反斜杠转义特殊字符：  

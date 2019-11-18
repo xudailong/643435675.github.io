@@ -163,11 +163,11 @@ example:
 列表嵌套只需**在子列表的选项中添加四个空格即可**:  
 
 > 1\. 第一项：  
-> &nbsp;&nbsp;&nbsp;&nbsp;\- 第一项嵌套的第一个元素  
-> &emsp;&emsp;&emsp;&emsp;\- 第一项嵌套的第二个元素  
+> &ensp;&ensp;&ensp;&ensp;\- 第一项嵌套的第一个元素  
+> &ensp;&ensp;&ensp;&ensp;\- 第一项嵌套的第二个元素  
 > 2\. 第二项：  
-> &ensp;&ensp;&ensp;&ensp;- 第二项嵌套的第一个元素  
-> &zwnj;&zwnj;&zwnj;&zwnj;\- 第二项嵌套的第二个元素  
+> &ensp;&ensp;&ensp;&ensp;\- 第二项嵌套的第一个元素  
+> &ensp;&ensp;&ensp;&ensp;\- 第二项嵌套的第二个元素  
 
 显示效果：  
 

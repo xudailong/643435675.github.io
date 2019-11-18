@@ -280,13 +280,13 @@ $(document).ready(function () {
 + 例如：  
 > 这是一个链接\[博主照片]\(https://s9.rr.itc.cn/r/wapChange/201610_6_17/a6tnit59312696559445.jpg)  
 
-显示结果如下：  
-这是一个链接[博主照片](https://s9.rr.itc.cn/r/wapChange/201610_6_17/a6tnit59312696559445.jpg)  
+    显示结果如下：  
+    这是一个链接[博主照片](https://s9.rr.itc.cn/r/wapChange/201610_6_17/a6tnit59312696559445.jpg)  
 
 + 直接使用地址链接：  
 > \<https://s9.rr.itc.cn/r/wapChange/201610_6_17/a6tnit59312696559445.jpg>  
-显示结果如下：  
-<https://s9.rr.itc.cn/r/wapChange/201610_6_17/a6tnit59312696559445.jpg>  
+    显示结果如下：  
+    <https://s9.rr.itc.cn/r/wapChange/201610_6_17/a6tnit59312696559445.jpg>  
 
 ## 高级链接  
 > 链接也可以用变量来代替，文档末尾附带变量地址：  

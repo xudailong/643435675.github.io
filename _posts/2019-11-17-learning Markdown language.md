@@ -332,9 +332,7 @@ Markdown 图片语法如下：
 
 显示效果：  
 这个链接用1作为网址变量 [博主第二波帅照][2]    
-然后在文档的结尾为变量赋值（网址）  
-
-[2]:https://www.google.com/url?sa=i&source=imgres&cd=&cad=rja&uact=8&ved=2ahUKEwjv4dmknvLlAhWQY98KHWapCI0QjRx6BAgBEAQ&url=http%3A%2F%2Fwww.sohu.com%2Fa%2F141720569_585208&psig=AOvVaw04wMopC8bglftJn6qVe0NC&ust=1574114143881036   
+然后在文档的结尾为变量赋值（网址）   
 
 Markdown还没有办法指定图片的高度与宽度，如果你需要的话，你可以使用普通的\<img>标签：  
 > \<img src="https://www.google.com/url?sa=i&source=imgres&cd=&cad=rja&uact=8&ved=2ahUKEwjv4dmknvLlAhWQY98KHWapCI0QjRx6BAgBEAQ&url=http%3A%2F%2Fwww.sohu.com%2Fa%2F141720569_585208&psig=AOvVaw04wMopC8bglftJn6qVe0NC&ust=1574114143881036" width="50%"\>  
@@ -435,4 +433,7 @@ $$
 - 表格显示不出来  
 - 特殊符号的高亮标记（函数）问题。（&#96;&#96;&#96;, Alt, Del, Ctrl等） 
 - HTML标签支持问题   
-- 公式（矩阵）语法及显示问题  
+- 公式（矩阵）语法及显示问题    
+
+
+[2]:https://www.google.com/url?sa=i&source=imgres&cd=&cad=rja&uact=8&ved=2ahUKEwjv4dmknvLlAhWQY98KHWapCI0QjRx6BAgBEAQ&url=http%3A%2F%2Fwww.sohu.com%2Fa%2F141720569_585208&psig=AOvVaw04wMopC8bglftJn6qVe0NC&ust=1574114143881036  

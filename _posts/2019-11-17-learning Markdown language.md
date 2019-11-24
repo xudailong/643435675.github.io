@@ -317,12 +317,12 @@ Markdown 图片语法如下：
 - 接着一个方括号，里面放上图片的替代文字  
 - 接着一个普通括号，里面放上图片的网址，最后还可以用引号包住并加上选择性的'title'属性的文字。  
 使用实例:  
-> \!\[博主第二波帅照\]\(https://www.google.com/url?sa=i&source=imgres&cd=&cad=rja&uact=8&ved=2ahUKEwjv4dmknvLlAhWQY98KHWapCI0QjRx6BAgBEAQ&url=http%3A%2F%2Fwww.sohu.com%2Fa%2F141720569_585208&psig=AOvVaw04wMopC8bglftJn6qVe0NC&ust=1574114143881036)  
-> \[博主第三波帅照\]\(https://www.google.com/url?sa=i&source=imgres&cd=&cad=rja&uact=8&ved=2ahUKEwjv4dmknvLlAhWQY98KHWapCI0QjRx6BAgBEAQ&url=http%3A%2F%2Fwww.sohu.com%2Fa%2F141720569_585208&psig=AOvVaw04wMopC8bglftJn6qVe0NC&ust=1574114143881036 "博主本人")  
+> \!\[博主第二波帅照\]\(http://entpic.yue365.com/star/4/6071/6071.jpg)  
+> \[博主第三波帅照\]\(https://88razzi.com/sites/default/files/styles/large/public/images/2018/04/16/node-1880/jrxqvkSo-AZsN_kk1SFTBBazzDLn_DAm9V6EHfVehB0.jpg?itok=FXvDq6CV "博主本人")  
 
 显示结果如下：  
-![博主第二波帅照](https://www.google.com/url?sa=i&source=imgres&cd=&cad=rja&uact=8&ved=2ahUKEwjv4dmknvLlAhWQY98KHWapCI0QjRx6BAgBEAQ&url=http%3A%2F%2Fwww.sohu.com%2Fa%2F141720569_585208&psig=AOvVaw04wMopC8bglftJn6qVe0NC&ust=1574114143881036)  
-![博主第三波帅照](https://www.google.com/url?sa=i&source=imgres&cd=&cad=rja&uact=8&ved=2ahUKEwjv4dmknvLlAhWQY98KHWapCI0QjRx6BAgBEAQ&url=http%3A%2F%2Fwww.sohu.com%2Fa%2F141720569_585208&psig=AOvVaw04wMopC8bglftJn6qVe0NC&ust=1574114143881036 "博主本人")  
+![博主第二波帅照](http://entpic.yue365.com/star/4/6071/6071.jpg)  
+![博主第三波帅照](https://88razzi.com/sites/default/files/styles/large/public/images/2018/04/16/node-1880/jrxqvkSo-AZsN_kk1SFTBBazzDLn_DAm9V6EHfVehB0.jpg?itok=FXvDq6CV "博主本人")  
 
 当然，也可以像网址那样对图片网址使用变量  
 > 这个链接用1作为网址变量 \[博主第二波帅照\]\[2\]  
@@ -335,10 +335,10 @@ Markdown 图片语法如下：
 然后在文档的结尾为变量赋值（网址）   
 
 Markdown还没有办法指定图片的高度与宽度，如果你需要的话，你可以使用普通的\<img>标签：  
-> \<img src="https://www.google.com/url?sa=i&source=imgres&cd=&cad=rja&uact=8&ved=2ahUKEwjv4dmknvLlAhWQY98KHWapCI0QjRx6BAgBEAQ&url=http%3A%2F%2Fwww.sohu.com%2Fa%2F141720569_585208&psig=AOvVaw04wMopC8bglftJn6qVe0NC&ust=1574114143881036" width="50%"\>  
+> \<img src="https://88razzi.com/sites/default/files/styles/large/public/images/2018/04/16/node-1880/jrxqvkSo-AZsN_kk1SFTBBazzDLn_DAm9V6EHfVehB0.jpg?itok=FXvDq6CV" width="50%"\>  
 
 显示结果：  
-<img src="https://www.google.com/url?sa=i&source=imgres&cd=&cad=rja&uact=8&ved=2ahUKEwjv4dmknvLlAhWQY98KHWapCI0QjRx6BAgBEAQ&url=http%3A%2F%2Fwww.sohu.com%2Fa%2F141720569_585208&psig=AOvVaw04wMopC8bglftJn6qVe0NC&ust=1574114143881036" width="50%">  
+<img src="https://88razzi.com/sites/default/files/styles/large/public/images/2018/04/16/node-1880/jrxqvkSo-AZsN_kk1SFTBBazzDLn_DAm9V6EHfVehB0.jpg?itok=FXvDq6CV" width="50%">  
 # Markdown 表格  
 Markdown制作表格使用`|`来分隔不同的单元格，使用`-`来分隔表头和其他行。  
 语法如下：  

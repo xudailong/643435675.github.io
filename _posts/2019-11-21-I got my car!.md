@@ -15,7 +15,7 @@ author: FireCheng
 ![我的车车1](https://purdue0-my.sharepoint.com/:i:/g/personal/cheng509_purdue_edu/Ebv770F7_PRDsZY72wqMgucBj3cGBFh59MlVW4BdryMX4w?e=bDisbm)  
 ![我的车车2](https://purdue0-my.sharepoint.com/:i:/g/personal/cheng509_purdue_edu/ES4A2M5s0jdNq8t2oiAt7qYBRVwl2sBMNBwlN0hgy3rsHw?e=PjRZzr)  
 ![我的车车3](https://purdue0-my.sharepoint.com/:i:/g/personal/cheng509_purdue_edu/EfsRoAI6kQZGvgVimfv4DpgBEmKsGrXdBfqPJ0CpeqFo8g?e=SQBCRG)  
-车的保险是提前买好的，生效日期选择交车当天即可，买的半险，半年475刀，拿到驾照之后可以重新报价，以支票的形式退回多余的钱，点赞！另外，我是去保险公司办公室当面买的保险，室友是微信上联系的对方，把卡号发给他们了。本来最初目的是面交以策安全，没想到居然有惊喜————Tucker Insurance的Rainie小姐姐好漂亮呀！<img src="http://ww1.sinaimg.cn/large/9150e4e5gy1g5hfde064wg208c08cq6l.gif" width="10%">而且人超好，看我没车回去，外面又很冷（雪还没化），就提出开车送我回家！（家离保险公司特别近）像这种情况，我还能说不？我还会说不？我当然一口就答应了呀！
+车的保险是提前买好的，生效日期选择交车当天即可，买的半险，半年475刀，拿到驾照之后可以重新报价，以支票的形式退回多余的钱，点赞！另外，我是去保险公司办公室当面买的保险，室友是微信上联系的对方，把卡号发给他们了。本来最初目的是面交以策安全，没想到居然有惊喜————Tucker Insurance的Rainie小姐姐好漂亮呀！<img src="http://ww1.sinaimg.cn/large/9150e4e5gy1g5hfde064wg208c08cq6l.gif" width="3%">而且人超好，看我没车回去，外面又很冷（雪还没化），就提出开车送我回家！（家离保险公司特别近）像这种情况，我还能说不？我还会说不？我当然一口就答应了呀！
 当天下午，赶紧买了普渡的A趴。车位是一年一买，由于我是学期中才开始买，所以比原本的一年A趴价格（250刀）要便宜一些，187.51刀，持续到明年8月份。普渡的停车位分A,B,C三个等级，等级依次降低，等级越高，可供选择的停车位就越多，比如A趴可以停在标有A，B或C Parking的停车位上，B趴可以停在B或C车位上，C趴只能停C。而且等级越高的停车位，位置越好（靠近教学楼，实验室等建筑，不用走很远的路），条件也越好（带顶遮雨，水泥地等）。  
 
 # 2019年11月20号  

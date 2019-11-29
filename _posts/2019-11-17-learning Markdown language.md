@@ -419,7 +419,8 @@ Markdown支持以下这些符号前面加上反斜杠来帮助插入普通的符
 > \\end{vmatrix}  
 > \$\$  
 
-输出结果为：  
+输出结果为：
+
 $$
 \mathbf{V}_1 \times \mathbf{V}_2 = \begin{vmatrix}\mathbf{i} & \mathbf{j} & \mathbf{k} \\
 \frac{\partial X}{\partial u} & \frac{\partial Y}{\partial u} & 0 \\

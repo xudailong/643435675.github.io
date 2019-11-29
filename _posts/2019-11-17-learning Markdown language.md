@@ -368,9 +368,9 @@ Markdown制作表格使用`|`来分隔不同的单元格，使用`-`来分隔表
 > \| 单元格 \| 单元格 \| 单元格 \|  
 
 显示效果：  
-| 左对齐 | 右对齐 | 居中对齐 |   
-| :---  |  ---:  |  :---:  |   
-| 单元格 | 单元格 | 单元格 |  
+| 左对齐 | 右对齐 | 居中对齐 |
+| :---  |  ---:  |  :---:  |
+| 单元格 | 单元格 | 单元格 |
 | 单元格 | 单元格 | 单元格 |  
 
 # Markdown 高级技巧  
@@ -419,20 +419,20 @@ Markdown支持以下这些符号前面加上反斜杠来帮助插入普通的符
 > \$\$  
 
 输出结果为：  
-$$  
-\mathbf{V}_1 \times \mathbf{V}_2 = \begin{vmatrix}  
-\mathbf{i} & \mathbf{j} & \mathbf{k} \\  
-\frac{\partial X}{\partial u} & \frac{\partial Y}{\partial u} & 0 \\  
-\frac{\partial X}{\partial v} & \frac{\partial Y}{\partial v} & 0 \\  
-\end{vmatrix}  
 $$
+\mathbf{V}_1 \times \mathbf{V}_2 = \begin{vmatrix}
+\mathbf{i} & \mathbf{j} & \mathbf{k} \\
+\frac{\partial X}{\partial u} & \frac{\partial Y}{\partial u} & 0 \\
+\frac{\partial X}{\partial v} & \frac{\partial Y}{\partial v} & 0 \\
+\end{vmatrix}
+$$  
 
 
 
 # 尚未解决的问题  
 - 脚注问题 （好像方括号内不能用中文？）  
 - 代码区块的显示问题    
-- 表格显示不出来  
+- 表格显示不出来  （<font color="blue">已解决，表格内换行不要加空格，直接回车</font>）
 - 特殊符号的高亮标记（函数）问题。（&#96;&#96;&#96;, Alt, Del, Ctrl等） 
 - HTML标签支持问题   
 - 公式（矩阵）语法及显示问题    

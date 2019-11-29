@@ -339,6 +339,7 @@ Markdown还没有办法指定图片的高度与宽度，如果你需要的话，
 
 显示结果：  
 <img src="https://88razzi.com/sites/default/files/styles/large/public/images/2018/04/16/node-1880/jrxqvkSo-AZsN_kk1SFTBBazzDLn_DAm9V6EHfVehB0.jpg?itok=FXvDq6CV" width="50%">  
+
 # Markdown 表格  
 Markdown制作表格使用`|`来分隔不同的单元格，使用`-`来分隔表头和其他行。  
 语法如下：  
@@ -349,9 +350,9 @@ Markdown制作表格使用`|`来分隔不同的单元格，使用`-`来分隔表
 
 显示结果：  
   
-| 表头 | 表头 |  
-| ---- | ---- |  
-| 单元格 | 单元格 |  
+| 表头 | 表头 |
+| ---- | ---- |
+| 单元格 | 单元格 |
 | 单元格 | 单元格 |  
 
 ## 对齐方式  

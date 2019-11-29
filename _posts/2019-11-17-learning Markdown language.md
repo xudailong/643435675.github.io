@@ -328,7 +328,7 @@ Markdown 图片语法如下：
 > 这个链接用1作为网址变量 \[博主第二波帅照\]\[2\]  
 > 然后在文档的结尾为变量赋值（网址）  
 >  
-> \[1\]:https://www.google.com/url?sa=i&source=imgres&cd=&cad=rja&uact=8&ved=2ahUKEwjv4dmknvLlAhWQY98KHWapCI0QjRx6BAgBEAQ&url=http%3A%2F%2Fwww.sohu.com%2Fa%2F141720569_585208&psig=AOvVaw04wMopC8bglftJn6qVe0NC&ust=1574114143881036  
+> \[1\]:http://entpic.yue365.com/star/4/6071/6071.jpg  
 
 显示效果：  
 这个链接用1作为网址变量 [博主第二波帅照][2]    
@@ -437,4 +437,4 @@ $$
 - 公式（矩阵）语法及显示问题    
 
 
-[2]:https://www.google.com/url?sa=i&source=imgres&cd=&cad=rja&uact=8&ved=2ahUKEwjv4dmknvLlAhWQY98KHWapCI0QjRx6BAgBEAQ&url=http%3A%2F%2Fwww.sohu.com%2Fa%2F141720569_585208&psig=AOvVaw04wMopC8bglftJn6qVe0NC&ust=1574114143881036  
+[2]:http://entpic.yue365.com/star/4/6071/6071.jpg  

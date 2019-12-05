@@ -6,6 +6,7 @@
 [![GitHub release](https://img.shields.io/github/release/Gaohaoyang/gaohaoyang.github.io.svg)](https://github.com/Gaohaoyang/gaohaoyang.github.io/releases)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Gaohaoyang/gaohaoyang.github.io/master/LICENSE)
 
+到美国1个多月，突然觉得应该把这里的生活，自己的感受记录下来，于是萌生了开个博客的想法，我属于轻度的看到代码就头大的人，在网上找了半天，最终决定用GitHub来建立博客。经过我一通捣鼓，终于按照网上的教程做出来了，反正我只是用来写写日记什么的，应该不会太难。但用这个来写日记，似乎多少有点高射炮打蚊子的意思。但是，还是要感谢万能的网友分享的教程，特别感谢这位徐代龙先生，因为我直接fork的他的模板，感谢感谢。
 随着 jekyll 的版本升级，同时我也想重构我的旧版博客主题，因此在这个月对博客进行了重构加改版，这个仓库存放我的新博客，并且我也会一直使用这个主题。目前基本改版完成，后续可能还会有些细节上的修补。
 
 **博客访问地址：[http://gaohaoyang.github.io/](http://gaohaoyang.github.io/)**。若您喜欢这个新的博客主题，请给我个star以示鼓励吧，欢迎大家使用。

@@ -3,6 +3,7 @@ layout: default
 title: Archives
 permalink: /archive/
 icon: archive
+type: page
 ---
 
 <!-- <h1>Archive of posts with {{ page.type }} '{{ page.title }}'</h1> -->
@@ -29,7 +30,7 @@ icon: archive
                 <time>
                 {{ post.date | date:"%F" }} {{ post.date | date: "%a" }}.
                 </time>
-                <a class="title" href="{{ post.url }}">{{ post.title }}</a>
+                <a class="title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 
                 {% include category.html %}
                 {% include tag.html %}
@@ -54,7 +55,7 @@ icon: archive
                           {% assign prevyear = post.previous.date | date: "%Y" %}
                           {% assign counter = counter | plus: 1 %}
                           {% if thisyear != prevyear %}
-                            <li><a class="scroll" href="#y{{ post.date | date: '%Y' }}">{{ thisyear }} ({{ counter }})</a></li>
+                            <li><a data-scroll href="#y{{ post.date | date: '%Y' }}">{{ thisyear }} ({{ counter }})</a></li>
                             {% assign counter = 0 %}
                           {% endif %}
                         {% endfor %}

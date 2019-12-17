@@ -15,7 +15,9 @@ layout: default
                 {% if page.author %}<i class="fa fa-user"></i>{{ page.author }}
                 {% endif %}
             </div>
-
+            <div class="label-card">
+                <p><i class="fa fa-eye fa-x"></i><span id="busuanzi_value_page_pv"></span></p>
+            </div>
             <div class="label-card">
                 {% if page.meta %}<i class="fa fa-key"></i>{{ page.meta }}  {% endif %}
             </div>
@@ -46,7 +48,7 @@ layout: default
                         <ul>
                         {% endif %}
                         <li class="relatedPost">
-                            <a href="{{ site.url }}{{ post.url }}">{{ post.title }}
+                            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
                             {% if post.series %}
                                 (Series: {{ post.series }})
                             {% endif %}
@@ -79,7 +81,9 @@ layout: default
                     Content
                 </div>
                 <ul id="content-side" class="content-ul">
+                    {% if hasSimilar.size > 0 %}
                     <li><a href="#similar_posts">Similar Posts</a></li>
+                    {% endif %}
                     <li><a href="#comments">Comments</a></li>
                 </ul>
             </div>

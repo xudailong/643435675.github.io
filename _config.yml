@@ -7,7 +7,11 @@
 
 # Site settings
 title: 杨靖的技术专栏
+<<<<<<< HEAD
 brief-intro: Android and MachineLearning
+=======
+brief-intro: Android and Python Coder
+>>>>>>> id=1
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://harkbox.github.io" # the base hostname & protocol for your site
 
@@ -16,7 +20,11 @@ permalink: /:year/:month/:day/:title/
 # other links
 twitter_username: #gaohaoyang126
 facebook_username: #gaohaoyang.water
+<<<<<<< HEAD
 github_username:  harkbox
+=======
+github_username: harkbox
+>>>>>>> id=1
 email: 975364398@QQ.com
 weibo_username: 3115521wh
 zhihu_username: hll643435675

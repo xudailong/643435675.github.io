@@ -7,20 +7,20 @@
 
 # Site settings
 title: 杨靖的技术专栏
-brief-intro: Android and Python Coder
+brief-intro: Android and MachineLearning
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://643435675.github.io" # the base hostname & protocol for your site
+url: "https://harkbox.github.io" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
 # other links
 twitter_username: #gaohaoyang126
 facebook_username: #gaohaoyang.water
-github_username:  643435675
-email: 643435675@QQ.com
+github_username:  harkbox
+email:975364398@QQ.com
 weibo_username: 3115521wh
 zhihu_username: hll643435675
-linkedIn_username: gaohaoyang
+linkedIn_username: yangjing
 dribbble_username:
 
 description_footer: 来自杨靖的个人专栏！

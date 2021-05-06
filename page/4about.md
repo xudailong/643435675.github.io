@@ -46,6 +46,6 @@ type: page
 <p>暂未添加</p>
 
 
-## Comments
+## English simplified version
 
 {% include comments.html %}

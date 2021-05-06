@@ -42,10 +42,5 @@ type: page
 <p>腾讯游戏:已经全部退游</p>
 <p>网易游戏:没有任何游戏</p>
 
-
-<p>暂未添加</p>
-
-
 ## English simplified version
-
-{% include comments.html %}
+<p>No English version</p>

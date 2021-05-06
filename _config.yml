@@ -9,7 +9,7 @@
 title: 王振兴的个人博客
 brief-intro: Android and Python Coder
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://2242389481.github.io/" # the base hostname & protocol for your site
+url: "https://643435675.github.io" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 

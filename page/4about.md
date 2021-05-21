@@ -34,6 +34,7 @@ type: page
 
 <p><a href="mqqapi://card/show_pslcard?src_type=internal&amp;source=sharecard&amp;version=1&amp;uin=2242389481" target="_blank" textvalue="mqqapi://card/show_pslcard?src_type=internal&amp;source=sharecard&amp;version=1&amp;uin=2242389481">QQ</a></p>
 <p><a href="https://uploader.shimo.im/f/itv1IrT2mEvN59B5.png" target="_blank" textvalue="https://uploader.shimo.im/f/itv1IrT2mEvN59B5.png">微信</a></p>
+<p>微信号：2242389481</p>
 <p><a href="https://steamcommunity.com/profiles/76561198940495776/" target="_blank" textvalue="https://steamcommunity.com/profiles/76561198940495776/">蒸汽/steam</a></p>
 <p><a href="网站链接" target="_blank" textvalue="网站链接">史诗/Epic(不可用)</a></p>
 <p><a href="https://uploader.shimo.im/f/PdJQn0lbmpISXks8.png" target="_blank" textvalue="https://uploader.shimo.im/f/PdJQn0lbmpISXks8.png">抖音</a></p>

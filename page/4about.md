@@ -69,7 +69,7 @@ type: page
 本站所有文章仅代表个人当时意见和想法。
 欢迎指出网站中有问题的地方，我会尽快修正，谢谢！
 内容转载请保留署名以及原文连接，谢谢！
-本网站所有作品采用 知识共享署名-相同方式共享 4.0 国际许可协议 进行许可。<p><a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" textvalue="https://creativecommons.org/licenses/by-sa/4.0/">「BY-SA」</a></p>
+本网站所有作品采用 知识共享署名-相同方式共享 4.0 国际许可协议 进行许可。
 ##商业转载请联系作者获得授权，非商业转载请注明出处。
 
 ## English simplified version
@@ -163,6 +163,6 @@ type: page
 
  Please keep the signature and link to the original content for reprinting, thank you!
 
- All works on this website are licensed under the Creative Commons Attribution-Sharing in the Same Way 4.0 International License Agreement.  <p><a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" textvalue="https://creativecommons.org/licenses/by-sa/4.0/"  >「BY-SA」</a></p>
+ All works on this website are licensed under the Creative Commons Attribution-Sharing in the Same Way 4.0 International License Agreement.
 
  ##Commercial reprint, please contact the author for authorization, non-commercial reprint, please indicate the source.
